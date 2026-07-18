@@ -1,0 +1,5120 @@
+{
+  "meta": {
+    "source": "Deutsch A2 – Vollständiges Wörterbuch (Menschen A2.1 & A2.2)",
+    "totalCards": 654,
+    "generated": true
+  },
+  "categories": [
+    {
+      "slug": "health",
+      "emoji": "🏥",
+      "de": "Gesundheit",
+      "en": "Health",
+      "counts": {
+        "word": 27,
+        "verb": 5,
+        "expression": 7
+      },
+      "total": 39
+    },
+    {
+      "slug": "work",
+      "emoji": "💼",
+      "de": "Arbeit & Firma",
+      "en": "Work & Company",
+      "counts": {
+        "word": 29,
+        "verb": 7,
+        "expression": 7
+      },
+      "total": 43
+    },
+    {
+      "slug": "restaurant",
+      "emoji": "🍽️",
+      "de": "Restaurant & Essen",
+      "en": "Restaurant & Food",
+      "counts": {
+        "word": 22,
+        "verb": 7,
+        "expression": 10
+      },
+      "total": 39
+    },
+    {
+      "slug": "food",
+      "emoji": "🥦",
+      "de": "Lebensmittel & Ernährung",
+      "en": "Food & Nutrition",
+      "counts": {
+        "word": 27,
+        "verb": 9,
+        "expression": 4
+      },
+      "total": 40
+    },
+    {
+      "slug": "office",
+      "emoji": "📬",
+      "de": "Büro, Post & Geschäft",
+      "en": "Office, Post & Business",
+      "counts": {
+        "word": 27,
+        "verb": 6,
+        "expression": 9
+      },
+      "total": 42
+    },
+    {
+      "slug": "hotel",
+      "emoji": "🏨",
+      "de": "Hotel & Unterkunft",
+      "en": "Hotel & Accommodation",
+      "counts": {
+        "word": 28,
+        "verb": 4,
+        "expression": 6
+      },
+      "total": 38
+    },
+    {
+      "slug": "travel",
+      "emoji": "✈️",
+      "de": "Reise & Verkehr",
+      "en": "Travel & Transport",
+      "counts": {
+        "word": 34,
+        "verb": 3,
+        "expression": 13
+      },
+      "total": 50
+    },
+    {
+      "slug": "weather",
+      "emoji": "🌦️",
+      "de": "Wetter & Klima",
+      "en": "Weather & Climate",
+      "counts": {
+        "word": 21,
+        "verb": 4,
+        "expression": 10
+      },
+      "total": 35
+    },
+    {
+      "slug": "media",
+      "emoji": "📺",
+      "de": "Medien, TV & Freizeit",
+      "en": "Media, TV & Leisure",
+      "counts": {
+        "word": 36,
+        "verb": 8,
+        "expression": 9
+      },
+      "total": 53
+    },
+    {
+      "slug": "culture",
+      "emoji": "🎭",
+      "de": "Veranstaltungen & Kultur",
+      "en": "Events & Culture",
+      "counts": {
+        "word": 29,
+        "verb": 2,
+        "expression": 18
+      },
+      "total": 49
+    },
+    {
+      "slug": "books",
+      "emoji": "📚",
+      "de": "Bücher & Presse",
+      "en": "Books & Press",
+      "counts": {
+        "word": 20,
+        "verb": 8,
+        "expression": 14
+      },
+      "total": 42
+    },
+    {
+      "slug": "police",
+      "emoji": "🚨",
+      "de": "Polizei & Verbrechen",
+      "en": "Police & Crime",
+      "counts": {
+        "word": 28,
+        "verb": 10,
+        "expression": 14
+      },
+      "total": 52
+    },
+    {
+      "slug": "internet",
+      "emoji": "💻",
+      "de": "Internet & Online",
+      "en": "Internet & Online",
+      "counts": {
+        "word": 14,
+        "verb": 12,
+        "expression": 15
+      },
+      "total": 41
+    },
+    {
+      "slug": "education",
+      "emoji": "🎓",
+      "de": "Ausbildung & Berufswahl",
+      "en": "Education & Career",
+      "counts": {
+        "word": 24,
+        "verb": 10,
+        "expression": 15
+      },
+      "total": 49
+    },
+    {
+      "slug": "abroad",
+      "emoji": "🌍",
+      "de": "Ausland & Erfahrungen",
+      "en": "Abroad & Experiences",
+      "counts": {
+        "word": 19,
+        "verb": 9,
+        "expression": 14
+      },
+      "total": 42
+    }
+  ],
+  "cards": [
+    {
+      "id": "health-w-001",
+      "category": "health",
+      "type": "word",
+      "de": "die Krankheit",
+      "en": "illness / disease",
+      "gender": "f"
+    },
+    {
+      "id": "health-w-002",
+      "category": "health",
+      "type": "word",
+      "de": "die Praxis / die Klinik",
+      "en": "clinic / practice",
+      "gender": "f"
+    },
+    {
+      "id": "health-w-003",
+      "category": "health",
+      "type": "word",
+      "de": "das Ohr",
+      "en": "ear",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-004",
+      "category": "health",
+      "type": "word",
+      "de": "das Herz",
+      "en": "heart",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-005",
+      "category": "health",
+      "type": "word",
+      "de": "der Kopf",
+      "en": "head",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-006",
+      "category": "health",
+      "type": "word",
+      "de": "das Knie",
+      "en": "knee",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-007",
+      "category": "health",
+      "type": "word",
+      "de": "die Brust",
+      "en": "chest / breast",
+      "gender": "f"
+    },
+    {
+      "id": "health-w-008",
+      "category": "health",
+      "type": "word",
+      "de": "der Magen",
+      "en": "stomach",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-009",
+      "category": "health",
+      "type": "word",
+      "de": "der Rücken",
+      "en": "back",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-010",
+      "category": "health",
+      "type": "word",
+      "de": "das Auge",
+      "en": "eye",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-011",
+      "category": "health",
+      "type": "word",
+      "de": "der Hals",
+      "en": "throat / neck",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-012",
+      "category": "health",
+      "type": "word",
+      "de": "der Notfall",
+      "en": "emergency",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-013",
+      "category": "health",
+      "type": "word",
+      "de": "der Unfall",
+      "en": "accident",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-014",
+      "category": "health",
+      "type": "word",
+      "de": "der Herzinfarkt",
+      "en": "heart attack",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-015",
+      "category": "health",
+      "type": "word",
+      "de": "der Krankenwagen",
+      "en": "ambulance",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-016",
+      "category": "health",
+      "type": "word",
+      "de": "die Verletzung",
+      "en": "injury",
+      "gender": "f"
+    },
+    {
+      "id": "health-w-017",
+      "category": "health",
+      "type": "word",
+      "de": "das Blut",
+      "en": "blood",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-018",
+      "category": "health",
+      "type": "word",
+      "de": "der Notarzt",
+      "en": "emergency doctor",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-019",
+      "category": "health",
+      "type": "word",
+      "de": "das Krankenhaus",
+      "en": "hospital",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-020",
+      "category": "health",
+      "type": "word",
+      "de": "die Notaufnahme",
+      "en": "emergency room (ER)",
+      "gender": "f"
+    },
+    {
+      "id": "health-w-021",
+      "category": "health",
+      "type": "word",
+      "de": "die Untersuchung",
+      "en": "examination",
+      "gender": "f"
+    },
+    {
+      "id": "health-w-022",
+      "category": "health",
+      "type": "word",
+      "de": "die Operation",
+      "en": "operation / surgery",
+      "gender": "f"
+    },
+    {
+      "id": "health-w-023",
+      "category": "health",
+      "type": "word",
+      "de": "der Verband",
+      "en": "bandage",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-024",
+      "category": "health",
+      "type": "word",
+      "de": "der Patient",
+      "en": "patient",
+      "gender": "m"
+    },
+    {
+      "id": "health-w-025",
+      "category": "health",
+      "type": "word",
+      "de": "das Sprechzimmer",
+      "en": "consultation room",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-026",
+      "category": "health",
+      "type": "word",
+      "de": "das Untersuchungszimmer",
+      "en": "examination room",
+      "gender": "n"
+    },
+    {
+      "id": "health-w-027",
+      "category": "health",
+      "type": "word",
+      "de": "der Druck",
+      "en": "pressure",
+      "gender": "m"
+    },
+    {
+      "id": "health-v-001",
+      "category": "health",
+      "type": "verb",
+      "de": "verbinden – hat verbunden",
+      "en": "to bandage"
+    },
+    {
+      "id": "health-v-002",
+      "category": "health",
+      "type": "verb",
+      "de": "sterben – ist gestorben",
+      "en": "to die"
+    },
+    {
+      "id": "health-v-003",
+      "category": "health",
+      "type": "verb",
+      "de": "untersuchen – hat untersucht",
+      "en": "to examine"
+    },
+    {
+      "id": "health-v-004",
+      "category": "health",
+      "type": "verb",
+      "de": "operieren – hat operiert",
+      "en": "to operate"
+    },
+    {
+      "id": "health-v-005",
+      "category": "health",
+      "type": "verb",
+      "de": "verletzen – hat verletzt",
+      "en": "to injure"
+    },
+    {
+      "id": "health-e-001",
+      "category": "health",
+      "type": "expression",
+      "de": "Es hat einen Unfall gegeben.",
+      "en": "There has been an accident."
+    },
+    {
+      "id": "health-e-002",
+      "category": "health",
+      "type": "expression",
+      "de": "Ich blute / Mein Finger blutet.",
+      "en": "I'm bleeding / My finger is bleeding."
+    },
+    {
+      "id": "health-e-003",
+      "category": "health",
+      "type": "expression",
+      "de": "Nehmen Sie Platz.",
+      "en": "Have a seat."
+    },
+    {
+      "id": "health-e-004",
+      "category": "health",
+      "type": "expression",
+      "de": "Ich habe mich verletzt.",
+      "en": "I have injured myself."
+    },
+    {
+      "id": "health-e-005",
+      "category": "health",
+      "type": "expression",
+      "de": "Ich habe einen Verband bekommen.",
+      "en": "I got a bandage."
+    },
+    {
+      "id": "health-e-006",
+      "category": "health",
+      "type": "expression",
+      "de": "Die Schmerzen haben von selbst wieder aufgehört.",
+      "en": "The pain stopped on its own."
+    },
+    {
+      "id": "health-e-007",
+      "category": "health",
+      "type": "expression",
+      "de": "Oh, das tut mir wirklich sehr leid.",
+      "en": "Oh, I am really very sorry."
+    },
+    {
+      "id": "work-w-001",
+      "category": "work",
+      "type": "word",
+      "de": "die Arbeit",
+      "en": "work / job",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-002",
+      "category": "work",
+      "type": "word",
+      "de": "das Leben",
+      "en": "life",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-003",
+      "category": "work",
+      "type": "word",
+      "de": "das Arbeitsleben",
+      "en": "work life",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-004",
+      "category": "work",
+      "type": "word",
+      "de": "das Autohaus",
+      "en": "car dealership",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-005",
+      "category": "work",
+      "type": "word",
+      "de": "der Wagen / das Auto",
+      "en": "car",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-006",
+      "category": "work",
+      "type": "word",
+      "de": "der Erfolg",
+      "en": "success",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-007",
+      "category": "work",
+      "type": "word",
+      "de": "die Firma",
+      "en": "company",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-008",
+      "category": "work",
+      "type": "word",
+      "de": "die Geschichte",
+      "en": "story / history",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-009",
+      "category": "work",
+      "type": "word",
+      "de": "die Baureihe",
+      "en": "model series",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-010",
+      "category": "work",
+      "type": "word",
+      "de": "der Arbeiter",
+      "en": "worker",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-011",
+      "category": "work",
+      "type": "word",
+      "de": "der Arbeitgeber",
+      "en": "employer",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-012",
+      "category": "work",
+      "type": "word",
+      "de": "der/die Angestellte",
+      "en": "employee",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-013",
+      "category": "work",
+      "type": "word",
+      "de": "der Import",
+      "en": "import",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-014",
+      "category": "work",
+      "type": "word",
+      "de": "der Export",
+      "en": "export",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-015",
+      "category": "work",
+      "type": "word",
+      "de": "der Betrieb",
+      "en": "company / operation",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-016",
+      "category": "work",
+      "type": "word",
+      "de": "der LKW (Lastkraftwagen)",
+      "en": "truck",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-017",
+      "category": "work",
+      "type": "word",
+      "de": "die Maschine",
+      "en": "machine",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-018",
+      "category": "work",
+      "type": "word",
+      "de": "die Halle",
+      "en": "hall / warehouse",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-019",
+      "category": "work",
+      "type": "word",
+      "de": "das Lager",
+      "en": "warehouse / storage",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-020",
+      "category": "work",
+      "type": "word",
+      "de": "das Werk / die Fabrik",
+      "en": "factory / plant",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-021",
+      "category": "work",
+      "type": "word",
+      "de": "die Produktion",
+      "en": "production",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-022",
+      "category": "work",
+      "type": "word",
+      "de": "die Produktivität",
+      "en": "productivity",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-023",
+      "category": "work",
+      "type": "word",
+      "de": "das Fließband",
+      "en": "assembly line",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-024",
+      "category": "work",
+      "type": "word",
+      "de": "der Bericht",
+      "en": "report",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-025",
+      "category": "work",
+      "type": "word",
+      "de": "das Jahrzehnt",
+      "en": "decade (10 years)",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-026",
+      "category": "work",
+      "type": "word",
+      "de": "das Fahrzeug",
+      "en": "vehicle",
+      "gender": "n"
+    },
+    {
+      "id": "work-w-027",
+      "category": "work",
+      "type": "word",
+      "de": "der Wettbewerb",
+      "en": "competition",
+      "gender": "m"
+    },
+    {
+      "id": "work-w-028",
+      "category": "work",
+      "type": "word",
+      "de": "die Einsparungen",
+      "en": "savings / cuts",
+      "gender": "f"
+    },
+    {
+      "id": "work-w-029",
+      "category": "work",
+      "type": "word",
+      "de": "erfolgreich",
+      "en": "successful"
+    },
+    {
+      "id": "work-v-001",
+      "category": "work",
+      "type": "verb",
+      "de": "bauen – hat gebaut",
+      "en": "to build"
+    },
+    {
+      "id": "work-v-002",
+      "category": "work",
+      "type": "verb",
+      "de": "beginnen – hat begonnen",
+      "en": "to begin"
+    },
+    {
+      "id": "work-v-003",
+      "category": "work",
+      "type": "verb",
+      "de": "produzieren – hat produziert",
+      "en": "to produce"
+    },
+    {
+      "id": "work-v-004",
+      "category": "work",
+      "type": "verb",
+      "de": "Geld sparen – hat gespart",
+      "en": "to save money"
+    },
+    {
+      "id": "work-v-005",
+      "category": "work",
+      "type": "verb",
+      "de": "ändern – hat geändert",
+      "en": "to change"
+    },
+    {
+      "id": "work-v-006",
+      "category": "work",
+      "type": "verb",
+      "de": "herstellen – hat hergestellt",
+      "en": "to manufacture"
+    },
+    {
+      "id": "work-v-007",
+      "category": "work",
+      "type": "verb",
+      "de": "gründen – hat gegründet",
+      "en": "to found / establish"
+    },
+    {
+      "id": "work-e-001",
+      "category": "work",
+      "type": "expression",
+      "de": "Ich war von Anfang an dabei.",
+      "en": "I was there from the beginning."
+    },
+    {
+      "id": "work-e-002",
+      "category": "work",
+      "type": "expression",
+      "de": "Ich darf mich vorstellen.",
+      "en": "Allow me to introduce myself."
+    },
+    {
+      "id": "work-e-003",
+      "category": "work",
+      "type": "expression",
+      "de": "Wir haben den Wagen selbst gebaut!",
+      "en": "We built the car ourselves!"
+    },
+    {
+      "id": "work-e-004",
+      "category": "work",
+      "type": "expression",
+      "de": "Wir reden ja über das Arbeitsleben.",
+      "en": "We are talking about work life."
+    },
+    {
+      "id": "work-e-005",
+      "category": "work",
+      "type": "expression",
+      "de": "Ich arbeite an einem Projekt.",
+      "en": "I am working on a project."
+    },
+    {
+      "id": "work-e-006",
+      "category": "work",
+      "type": "expression",
+      "de": "in Rente gehen",
+      "en": "to retire"
+    },
+    {
+      "id": "work-e-007",
+      "category": "work",
+      "type": "expression",
+      "de": "stolz auf + Akkusativ",
+      "en": "proud of"
+    },
+    {
+      "id": "restaurant-w-001",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Unbekannte",
+      "en": "unknown woman",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-w-002",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Verwandte",
+      "en": "relative (female)",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-w-003",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Verliebte",
+      "en": "woman in love",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-w-004",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Treffen",
+      "en": "meeting",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-005",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Lokal / das Restaurant",
+      "en": "restaurant",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-006",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Pommes",
+      "en": "fries / chips",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-w-007",
+      "category": "restaurant",
+      "type": "word",
+      "de": "der Kellner / die Kellnerin",
+      "en": "waiter / waitress",
+      "gender": "m"
+    },
+    {
+      "id": "restaurant-w-008",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Geschirr",
+      "en": "dishes / tableware",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-009",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Glas",
+      "en": "glass",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-010",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Tasse",
+      "en": "cup",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-w-011",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Kanne",
+      "en": "pot / jug",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-w-012",
+      "category": "restaurant",
+      "type": "word",
+      "de": "der Teller",
+      "en": "plate",
+      "gender": "m"
+    },
+    {
+      "id": "restaurant-w-013",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Besteck",
+      "en": "cutlery",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-014",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Gabel",
+      "en": "fork",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-w-015",
+      "category": "restaurant",
+      "type": "word",
+      "de": "der Löffel",
+      "en": "spoon",
+      "gender": "m"
+    },
+    {
+      "id": "restaurant-w-016",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Messer",
+      "en": "knife",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-017",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Salz",
+      "en": "salt",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-018",
+      "category": "restaurant",
+      "type": "word",
+      "de": "der Pfeffer",
+      "en": "pepper",
+      "gender": "m"
+    },
+    {
+      "id": "restaurant-w-019",
+      "category": "restaurant",
+      "type": "word",
+      "de": "der Essig",
+      "en": "vinegar",
+      "gender": "m"
+    },
+    {
+      "id": "restaurant-w-020",
+      "category": "restaurant",
+      "type": "word",
+      "de": "das Öl",
+      "en": "oil",
+      "gender": "n"
+    },
+    {
+      "id": "restaurant-w-021",
+      "category": "restaurant",
+      "type": "word",
+      "de": "der Zucker",
+      "en": "sugar",
+      "gender": "m"
+    },
+    {
+      "id": "restaurant-w-022",
+      "category": "restaurant",
+      "type": "word",
+      "de": "die Serviette",
+      "en": "napkin",
+      "gender": "f"
+    },
+    {
+      "id": "restaurant-v-001",
+      "category": "restaurant",
+      "type": "verb",
+      "de": "reservieren – hat reserviert",
+      "en": "to reserve"
+    },
+    {
+      "id": "restaurant-v-002",
+      "category": "restaurant",
+      "type": "verb",
+      "de": "hassen – hat gehasst",
+      "en": "to hate"
+    },
+    {
+      "id": "restaurant-v-003",
+      "category": "restaurant",
+      "type": "verb",
+      "de": "bestellen – hat bestellt",
+      "en": "to order"
+    },
+    {
+      "id": "restaurant-v-004",
+      "category": "restaurant",
+      "type": "verb",
+      "de": "nehmen – hat genommen",
+      "en": "to take"
+    },
+    {
+      "id": "restaurant-v-005",
+      "category": "restaurant",
+      "type": "verb",
+      "de": "sich beschweren – hat beschwert",
+      "en": "to complain"
+    },
+    {
+      "id": "restaurant-v-006",
+      "category": "restaurant",
+      "type": "verb",
+      "de": "reklamieren – hat reklamiert",
+      "en": "to file a complaint"
+    },
+    {
+      "id": "restaurant-v-007",
+      "category": "restaurant",
+      "type": "verb",
+      "de": "schmecken – hat geschmeckt",
+      "en": "to taste"
+    },
+    {
+      "id": "restaurant-e-001",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Wir würden gern bestellen!",
+      "en": "We would like to order!"
+    },
+    {
+      "id": "restaurant-e-002",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Es ist ziemlich voll hier.",
+      "en": "It is quite full here."
+    },
+    {
+      "id": "restaurant-e-003",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Ich nehme… / Ich hätte gern…",
+      "en": "I'll take… / I would like…"
+    },
+    {
+      "id": "restaurant-e-004",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Da hast du recht.",
+      "en": "You are right about that."
+    },
+    {
+      "id": "restaurant-e-005",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Ich gebe es an die Küche weiter!",
+      "en": "I'll pass it on to the kitchen!"
+    },
+    {
+      "id": "restaurant-e-006",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Irgendwelche Sonderwünsche?",
+      "en": "Any special requests?"
+    },
+    {
+      "id": "restaurant-e-007",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "So wie in der Karte.",
+      "en": "Just as on the menu."
+    },
+    {
+      "id": "restaurant-e-008",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Verzeihen Sie!",
+      "en": "Excuse me! (formal)"
+    },
+    {
+      "id": "restaurant-e-009",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "Ich bin sicher!",
+      "en": "I am sure!"
+    },
+    {
+      "id": "restaurant-e-010",
+      "category": "restaurant",
+      "type": "expression",
+      "de": "am wenigsten",
+      "en": "the least"
+    },
+    {
+      "id": "food-w-001",
+      "category": "food",
+      "type": "word",
+      "de": "das Obst",
+      "en": "fruit",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-002",
+      "category": "food",
+      "type": "word",
+      "de": "das Bier",
+      "en": "beer",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-003",
+      "category": "food",
+      "type": "word",
+      "de": "das Mineralwasser",
+      "en": "mineral water",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-004",
+      "category": "food",
+      "type": "word",
+      "de": "das Fleisch",
+      "en": "meat",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-005",
+      "category": "food",
+      "type": "word",
+      "de": "die Limonade",
+      "en": "lemonade / soft drink",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-006",
+      "category": "food",
+      "type": "word",
+      "de": "das Getreide",
+      "en": "grain / cereal",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-007",
+      "category": "food",
+      "type": "word",
+      "de": "das Brot",
+      "en": "bread",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-008",
+      "category": "food",
+      "type": "word",
+      "de": "der Fisch",
+      "en": "fish",
+      "gender": "m"
+    },
+    {
+      "id": "food-w-009",
+      "category": "food",
+      "type": "word",
+      "de": "das Gemüse",
+      "en": "vegetables",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-010",
+      "category": "food",
+      "type": "word",
+      "de": "der Früchtetee",
+      "en": "fruit tea",
+      "gender": "m"
+    },
+    {
+      "id": "food-w-011",
+      "category": "food",
+      "type": "word",
+      "de": "das Müsli",
+      "en": "muesli / granola",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-012",
+      "category": "food",
+      "type": "word",
+      "de": "die Wurst",
+      "en": "sausage",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-013",
+      "category": "food",
+      "type": "word",
+      "de": "der Kräutertee",
+      "en": "herbal tea",
+      "gender": "m"
+    },
+    {
+      "id": "food-w-014",
+      "category": "food",
+      "type": "word",
+      "de": "der Gast / die Gäste",
+      "en": "guest(s)",
+      "gender": "m"
+    },
+    {
+      "id": "food-w-015",
+      "category": "food",
+      "type": "word",
+      "de": "die Gewohnheit",
+      "en": "habit",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-016",
+      "category": "food",
+      "type": "word",
+      "de": "die Zeitschrift",
+      "en": "magazine",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-017",
+      "category": "food",
+      "type": "word",
+      "de": "die Essgewohnheiten",
+      "en": "eating habits",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-018",
+      "category": "food",
+      "type": "word",
+      "de": "der Durchschnitt",
+      "en": "average",
+      "gender": "m"
+    },
+    {
+      "id": "food-w-019",
+      "category": "food",
+      "type": "word",
+      "de": "die Lebensmittel",
+      "en": "groceries / food",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-020",
+      "category": "food",
+      "type": "word",
+      "de": "die Seite",
+      "en": "page / side",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-021",
+      "category": "food",
+      "type": "word",
+      "de": "die Umfrage",
+      "en": "survey / poll",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-022",
+      "category": "food",
+      "type": "word",
+      "de": "der Konsum",
+      "en": "consumption",
+      "gender": "m"
+    },
+    {
+      "id": "food-w-023",
+      "category": "food",
+      "type": "word",
+      "de": "das Produkt / die Produkte",
+      "en": "product(s)",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-024",
+      "category": "food",
+      "type": "word",
+      "de": "die Hälfte",
+      "en": "half",
+      "gender": "f"
+    },
+    {
+      "id": "food-w-025",
+      "category": "food",
+      "type": "word",
+      "de": "das Ergebnis",
+      "en": "result",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-026",
+      "category": "food",
+      "type": "word",
+      "de": "das Bundesministerium",
+      "en": "federal ministry",
+      "gender": "n"
+    },
+    {
+      "id": "food-w-027",
+      "category": "food",
+      "type": "word",
+      "de": "die Menge",
+      "en": "amount / quantity",
+      "gender": "f"
+    },
+    {
+      "id": "food-v-001",
+      "category": "food",
+      "type": "verb",
+      "de": "sich vorbereiten auf – hat vorbereitet",
+      "en": "to prepare for"
+    },
+    {
+      "id": "food-v-002",
+      "category": "food",
+      "type": "verb",
+      "de": "probieren – hat probiert",
+      "en": "to try / taste"
+    },
+    {
+      "id": "food-v-003",
+      "category": "food",
+      "type": "verb",
+      "de": "wundern – hat gewundert",
+      "en": "to surprise"
+    },
+    {
+      "id": "food-v-004",
+      "category": "food",
+      "type": "verb",
+      "de": "verwenden – hat verwendet",
+      "en": "to use"
+    },
+    {
+      "id": "food-v-005",
+      "category": "food",
+      "type": "verb",
+      "de": "konsumieren – hat konsumiert",
+      "en": "to consume"
+    },
+    {
+      "id": "food-v-006",
+      "category": "food",
+      "type": "verb",
+      "de": "berichten – hat berichtet",
+      "en": "to report"
+    },
+    {
+      "id": "food-v-007",
+      "category": "food",
+      "type": "verb",
+      "de": "verbrauchen – hat verbraucht",
+      "en": "to consume / use up"
+    },
+    {
+      "id": "food-v-008",
+      "category": "food",
+      "type": "verb",
+      "de": "bestehen aus – hat bestanden aus",
+      "en": "to consist of"
+    },
+    {
+      "id": "food-v-009",
+      "category": "food",
+      "type": "verb",
+      "de": "überraschen – hat überrascht",
+      "en": "to surprise"
+    },
+    {
+      "id": "food-e-001",
+      "category": "food",
+      "type": "expression",
+      "de": "im Durchschnitt / Durchschnittsfamilie",
+      "en": "on average / average family"
+    },
+    {
+      "id": "food-e-002",
+      "category": "food",
+      "type": "expression",
+      "de": "häufig = oft / am häufigsten",
+      "en": "frequently = often / most often"
+    },
+    {
+      "id": "food-e-003",
+      "category": "food",
+      "type": "expression",
+      "de": "das hat mich gewundert",
+      "en": "that surprised me"
+    },
+    {
+      "id": "food-e-004",
+      "category": "food",
+      "type": "expression",
+      "de": "die empfohlene Menge",
+      "en": "the recommended amount"
+    },
+    {
+      "id": "office-w-001",
+      "category": "office",
+      "type": "word",
+      "de": "der Briefumschlag",
+      "en": "envelope",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-002",
+      "category": "office",
+      "type": "word",
+      "de": "das Briefpapier",
+      "en": "writing paper / stationery",
+      "gender": "n"
+    },
+    {
+      "id": "office-w-003",
+      "category": "office",
+      "type": "word",
+      "de": "die Postkarte",
+      "en": "postcard",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-004",
+      "category": "office",
+      "type": "word",
+      "de": "der Notizblock",
+      "en": "notepad",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-005",
+      "category": "office",
+      "type": "word",
+      "de": "das Geschenkpapier",
+      "en": "wrapping paper",
+      "gender": "n"
+    },
+    {
+      "id": "office-w-006",
+      "category": "office",
+      "type": "word",
+      "de": "die Geldbörse / das Portemonnaie",
+      "en": "wallet / purse",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-007",
+      "category": "office",
+      "type": "word",
+      "de": "die Aktentasche",
+      "en": "briefcase",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-008",
+      "category": "office",
+      "type": "word",
+      "de": "die Handtasche",
+      "en": "handbag",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-009",
+      "category": "office",
+      "type": "word",
+      "de": "der Rucksack",
+      "en": "backpack",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-010",
+      "category": "office",
+      "type": "word",
+      "de": "die Zeitung",
+      "en": "newspaper",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-011",
+      "category": "office",
+      "type": "word",
+      "de": "die Geschäftspartnerin",
+      "en": "business partner (female)",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-012",
+      "category": "office",
+      "type": "word",
+      "de": "der Zeitungsartikel",
+      "en": "newspaper article",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-013",
+      "category": "office",
+      "type": "word",
+      "de": "der Chef / die Chefin",
+      "en": "boss / manager",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-014",
+      "category": "office",
+      "type": "word",
+      "de": "der Artikel",
+      "en": "article",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-015",
+      "category": "office",
+      "type": "word",
+      "de": "das Geschäft",
+      "en": "shop / business",
+      "gender": "n"
+    },
+    {
+      "id": "office-w-016",
+      "category": "office",
+      "type": "word",
+      "de": "der Rest",
+      "en": "rest / remainder",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-017",
+      "category": "office",
+      "type": "word",
+      "de": "die Messe",
+      "en": "trade fair / exhibition",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-018",
+      "category": "office",
+      "type": "word",
+      "de": "die Werkstatt",
+      "en": "workshop / garage",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-019",
+      "category": "office",
+      "type": "word",
+      "de": "der Erwachsene",
+      "en": "adult",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-020",
+      "category": "office",
+      "type": "word",
+      "de": "das Betriebsklima",
+      "en": "work atmosphere",
+      "gender": "n"
+    },
+    {
+      "id": "office-w-021",
+      "category": "office",
+      "type": "word",
+      "de": "die Landkarte",
+      "en": "map",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-022",
+      "category": "office",
+      "type": "word",
+      "de": "der Bürgermeister",
+      "en": "mayor",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-023",
+      "category": "office",
+      "type": "word",
+      "de": "der Umweltschutz",
+      "en": "environmental protection",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-024",
+      "category": "office",
+      "type": "word",
+      "de": "der Textilreste",
+      "en": "textile scraps",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-025",
+      "category": "office",
+      "type": "word",
+      "de": "der Müll",
+      "en": "trash / garbage",
+      "gender": "m"
+    },
+    {
+      "id": "office-w-026",
+      "category": "office",
+      "type": "word",
+      "de": "die Mode",
+      "en": "fashion",
+      "gender": "f"
+    },
+    {
+      "id": "office-w-027",
+      "category": "office",
+      "type": "word",
+      "de": "der Grund",
+      "en": "reason / ground",
+      "gender": "m"
+    },
+    {
+      "id": "office-v-001",
+      "category": "office",
+      "type": "verb",
+      "de": "gratulieren – hat gratuliert",
+      "en": "to congratulate"
+    },
+    {
+      "id": "office-v-002",
+      "category": "office",
+      "type": "verb",
+      "de": "loben – hat gelobt",
+      "en": "to praise"
+    },
+    {
+      "id": "office-v-003",
+      "category": "office",
+      "type": "verb",
+      "de": "benutzen – hat benutzt",
+      "en": "to use"
+    },
+    {
+      "id": "office-v-004",
+      "category": "office",
+      "type": "verb",
+      "de": "herstellen – hat hergestellt",
+      "en": "to manufacture"
+    },
+    {
+      "id": "office-v-005",
+      "category": "office",
+      "type": "verb",
+      "de": "gründen – hat gegründet",
+      "en": "to found"
+    },
+    {
+      "id": "office-v-006",
+      "category": "office",
+      "type": "verb",
+      "de": "wegwerfen – hat weggeworfen",
+      "en": "to throw away"
+    },
+    {
+      "id": "office-e-001",
+      "category": "office",
+      "type": "expression",
+      "de": "Mitarbeiterin des Jahres",
+      "en": "Employee of the year"
+    },
+    {
+      "id": "office-e-002",
+      "category": "office",
+      "type": "expression",
+      "de": "eine neue Kollegin",
+      "en": "a new (female) colleague"
+    },
+    {
+      "id": "office-e-003",
+      "category": "office",
+      "type": "expression",
+      "de": "Ich freue mich so…",
+      "en": "I am so happy / excited…"
+    },
+    {
+      "id": "office-e-004",
+      "category": "office",
+      "type": "expression",
+      "de": "die Gebrauchsgegenstände",
+      "en": "everyday objects"
+    },
+    {
+      "id": "office-e-005",
+      "category": "office",
+      "type": "expression",
+      "de": "die Getränkeverpackung",
+      "en": "beverage packaging"
+    },
+    {
+      "id": "office-e-006",
+      "category": "office",
+      "type": "expression",
+      "de": "Sie feiert ihre Pensionierung.",
+      "en": "She is celebrating her retirement."
+    },
+    {
+      "id": "office-e-007",
+      "category": "office",
+      "type": "expression",
+      "de": "die Arbeitsstelle",
+      "en": "job / workplace"
+    },
+    {
+      "id": "office-e-008",
+      "category": "office",
+      "type": "expression",
+      "de": "Wegwerfen",
+      "en": "to throw away"
+    },
+    {
+      "id": "office-e-009",
+      "category": "office",
+      "type": "expression",
+      "de": "die Meinung",
+      "en": "opinion"
+    },
+    {
+      "id": "hotel-w-001",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Gespräch",
+      "en": "conversation",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-002",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Kiosk",
+      "en": "kiosk",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-003",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Minibar",
+      "en": "minibar",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-004",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Restaurant",
+      "en": "restaurant",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-005",
+      "category": "hotel",
+      "type": "word",
+      "de": "der Parkplatz",
+      "en": "parking lot",
+      "gender": "m"
+    },
+    {
+      "id": "hotel-w-006",
+      "category": "hotel",
+      "type": "word",
+      "de": "der Fitnessraum",
+      "en": "fitness room",
+      "gender": "m"
+    },
+    {
+      "id": "hotel-w-007",
+      "category": "hotel",
+      "type": "word",
+      "de": "der Konferenzraum",
+      "en": "conference room",
+      "gender": "m"
+    },
+    {
+      "id": "hotel-w-008",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Rezeption",
+      "en": "reception / front desk",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-009",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Bar",
+      "en": "bar",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-010",
+      "category": "hotel",
+      "type": "word",
+      "de": "der Frühstücksraum",
+      "en": "breakfast room",
+      "gender": "m"
+    },
+    {
+      "id": "hotel-w-011",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Schwimmbad",
+      "en": "swimming pool",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-012",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Sauna",
+      "en": "sauna",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-013",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Nichtraucherzimmer",
+      "en": "non-smoking room",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-014",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Doppelzimmer",
+      "en": "double room",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-015",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Einzelzimmer",
+      "en": "single room",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-016",
+      "category": "hotel",
+      "type": "word",
+      "de": "der Gast",
+      "en": "guest",
+      "gender": "m"
+    },
+    {
+      "id": "hotel-w-017",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Anruferin",
+      "en": "caller (female)",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-018",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Unterschrift",
+      "en": "signature",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-019",
+      "category": "hotel",
+      "type": "word",
+      "de": "der Postbote",
+      "en": "postman",
+      "gender": "m"
+    },
+    {
+      "id": "hotel-w-020",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Ausbildung",
+      "en": "apprenticeship / training",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-021",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Nacht / die Nächte",
+      "en": "night(s)",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-022",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Halbpension",
+      "en": "half board",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-023",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Vollpension",
+      "en": "full board",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-024",
+      "category": "hotel",
+      "type": "word",
+      "de": "die Mahlzeiten",
+      "en": "meals",
+      "gender": "f"
+    },
+    {
+      "id": "hotel-w-025",
+      "category": "hotel",
+      "type": "word",
+      "de": "der Strandblick",
+      "en": "beach view",
+      "gender": "m"
+    },
+    {
+      "id": "hotel-w-026",
+      "category": "hotel",
+      "type": "word",
+      "de": "das Fitnessstudio",
+      "en": "gym",
+      "gender": "n"
+    },
+    {
+      "id": "hotel-w-027",
+      "category": "hotel",
+      "type": "word",
+      "de": "nervös",
+      "en": "nervous"
+    },
+    {
+      "id": "hotel-w-028",
+      "category": "hotel",
+      "type": "word",
+      "de": "wütend / sauer",
+      "en": "angry"
+    },
+    {
+      "id": "hotel-v-001",
+      "category": "hotel",
+      "type": "verb",
+      "de": "bringen – hat gebracht",
+      "en": "to bring"
+    },
+    {
+      "id": "hotel-v-002",
+      "category": "hotel",
+      "type": "verb",
+      "de": "unterschreiben – hat unterschrieben",
+      "en": "to sign"
+    },
+    {
+      "id": "hotel-v-003",
+      "category": "hotel",
+      "type": "verb",
+      "de": "sich beschweren – hat beschwert",
+      "en": "to complain"
+    },
+    {
+      "id": "hotel-v-004",
+      "category": "hotel",
+      "type": "verb",
+      "de": "Ärger haben",
+      "en": "to have trouble"
+    },
+    {
+      "id": "hotel-e-001",
+      "category": "hotel",
+      "type": "expression",
+      "de": "Wir sind ausgebucht.",
+      "en": "We are fully booked."
+    },
+    {
+      "id": "hotel-e-002",
+      "category": "hotel",
+      "type": "expression",
+      "de": "Die Personen sind an der Rezeption.",
+      "en": "The guests are at the reception."
+    },
+    {
+      "id": "hotel-e-003",
+      "category": "hotel",
+      "type": "expression",
+      "de": "Ich wünsche Ihnen einen angenehmen Aufenthalt!",
+      "en": "I wish you a pleasant stay!"
+    },
+    {
+      "id": "hotel-e-004",
+      "category": "hotel",
+      "type": "expression",
+      "de": "Ein Gespräch im Hotel führen.",
+      "en": "To have a conversation in the hotel."
+    },
+    {
+      "id": "hotel-e-005",
+      "category": "hotel",
+      "type": "expression",
+      "de": "Das ist so was wie ein kleiner Kühlschrank.",
+      "en": "That is something like a small fridge."
+    },
+    {
+      "id": "hotel-e-006",
+      "category": "hotel",
+      "type": "expression",
+      "de": "Es gibt Staub / es gibt überall Flecken.",
+      "en": "There is dust / there are stains everywhere."
+    },
+    {
+      "id": "travel-w-001",
+      "category": "travel",
+      "type": "word",
+      "de": "das Tagebuch",
+      "en": "diary",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-002",
+      "category": "travel",
+      "type": "word",
+      "de": "der Urlaub",
+      "en": "holiday / vacation",
+      "gender": "m"
+    },
+    {
+      "id": "travel-w-003",
+      "category": "travel",
+      "type": "word",
+      "de": "das Reisetagebuch",
+      "en": "travel diary",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-004",
+      "category": "travel",
+      "type": "word",
+      "de": "die Abfahrt",
+      "en": "departure (train/bus)",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-005",
+      "category": "travel",
+      "type": "word",
+      "de": "die Ankunft",
+      "en": "arrival",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-006",
+      "category": "travel",
+      "type": "word",
+      "de": "die Reifenpanne",
+      "en": "flat tire",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-007",
+      "category": "travel",
+      "type": "word",
+      "de": "die Tankstelle",
+      "en": "gas station",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-008",
+      "category": "travel",
+      "type": "word",
+      "de": "die Autowerkstatt",
+      "en": "car garage",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-009",
+      "category": "travel",
+      "type": "word",
+      "de": "Reifen wechseln",
+      "en": "to change a tire"
+    },
+    {
+      "id": "travel-w-010",
+      "category": "travel",
+      "type": "word",
+      "de": "der Motor",
+      "en": "engine / motor",
+      "gender": "m"
+    },
+    {
+      "id": "travel-w-011",
+      "category": "travel",
+      "type": "word",
+      "de": "die Autobahn",
+      "en": "highway / motorway",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-012",
+      "category": "travel",
+      "type": "word",
+      "de": "die Fähre",
+      "en": "ferry",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-013",
+      "category": "travel",
+      "type": "word",
+      "de": "das Schiff",
+      "en": "ship",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-014",
+      "category": "travel",
+      "type": "word",
+      "de": "der Wagen",
+      "en": "car",
+      "gender": "m"
+    },
+    {
+      "id": "travel-w-015",
+      "category": "travel",
+      "type": "word",
+      "de": "das Motorrad",
+      "en": "motorcycle",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-016",
+      "category": "travel",
+      "type": "word",
+      "de": "das Fahrzeug",
+      "en": "vehicle",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-017",
+      "category": "travel",
+      "type": "word",
+      "de": "die Reise",
+      "en": "trip / journey",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-018",
+      "category": "travel",
+      "type": "word",
+      "de": "die Grenze",
+      "en": "border",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-019",
+      "category": "travel",
+      "type": "word",
+      "de": "das Feld",
+      "en": "field",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-020",
+      "category": "travel",
+      "type": "word",
+      "de": "der Friedhof",
+      "en": "cemetery",
+      "gender": "m"
+    },
+    {
+      "id": "travel-w-021",
+      "category": "travel",
+      "type": "word",
+      "de": "das Kreuz",
+      "en": "cross",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-022",
+      "category": "travel",
+      "type": "word",
+      "de": "das Paar / das Pärchen",
+      "en": "couple",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-023",
+      "category": "travel",
+      "type": "word",
+      "de": "das Holz",
+      "en": "wood",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-024",
+      "category": "travel",
+      "type": "word",
+      "de": "das Wechselgeld",
+      "en": "change (money)",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-025",
+      "category": "travel",
+      "type": "word",
+      "de": "der Geldschein",
+      "en": "banknote",
+      "gender": "m"
+    },
+    {
+      "id": "travel-w-026",
+      "category": "travel",
+      "type": "word",
+      "de": "die Münze",
+      "en": "coin",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-027",
+      "category": "travel",
+      "type": "word",
+      "de": "der Kaugummi",
+      "en": "chewing gum",
+      "gender": "m"
+    },
+    {
+      "id": "travel-w-028",
+      "category": "travel",
+      "type": "word",
+      "de": "die Insel",
+      "en": "island",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-029",
+      "category": "travel",
+      "type": "word",
+      "de": "die Wüste",
+      "en": "desert",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-030",
+      "category": "travel",
+      "type": "word",
+      "de": "das Gebirge",
+      "en": "mountains",
+      "gender": "n"
+    },
+    {
+      "id": "travel-w-031",
+      "category": "travel",
+      "type": "word",
+      "de": "die Kreuzung",
+      "en": "intersection / crossroads",
+      "gender": "f"
+    },
+    {
+      "id": "travel-w-032",
+      "category": "travel",
+      "type": "word",
+      "de": "gefährlich",
+      "en": "dangerous"
+    },
+    {
+      "id": "travel-w-033",
+      "category": "travel",
+      "type": "word",
+      "de": "insgesamt",
+      "en": "overall / in total"
+    },
+    {
+      "id": "travel-w-034",
+      "category": "travel",
+      "type": "word",
+      "de": "müde",
+      "en": "tired"
+    },
+    {
+      "id": "travel-v-001",
+      "category": "travel",
+      "type": "verb",
+      "de": "überqueren – hat überquert",
+      "en": "to cross"
+    },
+    {
+      "id": "travel-v-002",
+      "category": "travel",
+      "type": "verb",
+      "de": "erkennen – hat erkannt",
+      "en": "to recognize"
+    },
+    {
+      "id": "travel-v-003",
+      "category": "travel",
+      "type": "verb",
+      "de": "Geld sparen – hat gespart",
+      "en": "to save money"
+    },
+    {
+      "id": "travel-e-001",
+      "category": "travel",
+      "type": "expression",
+      "de": "Sie sehen glücklich aus, denn sie lächeln.",
+      "en": "They look happy, because they are smiling."
+    },
+    {
+      "id": "travel-e-002",
+      "category": "travel",
+      "type": "expression",
+      "de": "Weltberühmte… Friedhof",
+      "en": "World-famous… cemetery"
+    },
+    {
+      "id": "travel-e-003",
+      "category": "travel",
+      "type": "expression",
+      "de": "Das hat sicher Spaß gemacht!",
+      "en": "That was surely fun!"
+    },
+    {
+      "id": "travel-e-004",
+      "category": "travel",
+      "type": "expression",
+      "de": "Du hast mich überrascht.",
+      "en": "You surprised me."
+    },
+    {
+      "id": "travel-e-005",
+      "category": "travel",
+      "type": "expression",
+      "de": "Pass auf das Haus auf!",
+      "en": "Take care of the house!"
+    },
+    {
+      "id": "travel-e-006",
+      "category": "travel",
+      "type": "expression",
+      "de": "Es fehlt noch das Wechselgeld.",
+      "en": "The change is still missing."
+    },
+    {
+      "id": "travel-e-007",
+      "category": "travel",
+      "type": "expression",
+      "de": "jemand – niemand – etwas – nichts",
+      "en": "someone – no one – something – nothing"
+    },
+    {
+      "id": "travel-e-008",
+      "category": "travel",
+      "type": "expression",
+      "de": "Insel – Wüste – Gebirge",
+      "en": "island – desert – mountains"
+    },
+    {
+      "id": "travel-e-009",
+      "category": "travel",
+      "type": "expression",
+      "de": "Gute Fahrt!",
+      "en": "Have a good trip!"
+    },
+    {
+      "id": "travel-e-010",
+      "category": "travel",
+      "type": "expression",
+      "de": "Nicht zu glauben!",
+      "en": "Unbelievable!"
+    },
+    {
+      "id": "travel-e-011",
+      "category": "travel",
+      "type": "expression",
+      "de": "So ein Zufall!",
+      "en": "What a coincidence!"
+    },
+    {
+      "id": "travel-e-012",
+      "category": "travel",
+      "type": "expression",
+      "de": "So ein Pech!",
+      "en": "What bad luck!"
+    },
+    {
+      "id": "travel-e-013",
+      "category": "travel",
+      "type": "expression",
+      "de": "Das war bestimmt anstrengend!",
+      "en": "That was surely exhausting!"
+    },
+    {
+      "id": "weather-w-001",
+      "category": "weather",
+      "type": "word",
+      "de": "das Wetter",
+      "en": "weather",
+      "gender": "n"
+    },
+    {
+      "id": "weather-w-002",
+      "category": "weather",
+      "type": "word",
+      "de": "das Hoch",
+      "en": "high pressure (sunny)",
+      "gender": "n"
+    },
+    {
+      "id": "weather-w-003",
+      "category": "weather",
+      "type": "word",
+      "de": "das Tief",
+      "en": "low pressure (rainy)",
+      "gender": "n"
+    },
+    {
+      "id": "weather-w-004",
+      "category": "weather",
+      "type": "word",
+      "de": "die Temperatur",
+      "en": "temperature",
+      "gender": "f"
+    },
+    {
+      "id": "weather-w-005",
+      "category": "weather",
+      "type": "word",
+      "de": "trocken",
+      "en": "dry"
+    },
+    {
+      "id": "weather-w-006",
+      "category": "weather",
+      "type": "word",
+      "de": "feucht",
+      "en": "humid / damp"
+    },
+    {
+      "id": "weather-w-007",
+      "category": "weather",
+      "type": "word",
+      "de": "der Niederschlag",
+      "en": "precipitation / rainfall",
+      "gender": "m"
+    },
+    {
+      "id": "weather-w-008",
+      "category": "weather",
+      "type": "word",
+      "de": "die Kälte",
+      "en": "the cold",
+      "gender": "f"
+    },
+    {
+      "id": "weather-w-009",
+      "category": "weather",
+      "type": "word",
+      "de": "die Hitze",
+      "en": "heat",
+      "gender": "f"
+    },
+    {
+      "id": "weather-w-010",
+      "category": "weather",
+      "type": "word",
+      "de": "die Wärme",
+      "en": "warmth",
+      "gender": "f"
+    },
+    {
+      "id": "weather-w-011",
+      "category": "weather",
+      "type": "word",
+      "de": "das Eis",
+      "en": "ice",
+      "gender": "n"
+    },
+    {
+      "id": "weather-w-012",
+      "category": "weather",
+      "type": "word",
+      "de": "der Schnee",
+      "en": "snow",
+      "gender": "m"
+    },
+    {
+      "id": "weather-w-013",
+      "category": "weather",
+      "type": "word",
+      "de": "der Hagel",
+      "en": "hail",
+      "gender": "m"
+    },
+    {
+      "id": "weather-w-014",
+      "category": "weather",
+      "type": "word",
+      "de": "das Klima",
+      "en": "climate",
+      "gender": "n"
+    },
+    {
+      "id": "weather-w-015",
+      "category": "weather",
+      "type": "word",
+      "de": "der Sturm",
+      "en": "storm",
+      "gender": "m"
+    },
+    {
+      "id": "weather-w-016",
+      "category": "weather",
+      "type": "word",
+      "de": "der Nebel",
+      "en": "fog",
+      "gender": "m"
+    },
+    {
+      "id": "weather-w-017",
+      "category": "weather",
+      "type": "word",
+      "de": "der Schauer",
+      "en": "shower (rain)",
+      "gender": "m"
+    },
+    {
+      "id": "weather-w-018",
+      "category": "weather",
+      "type": "word",
+      "de": "das Gewitter",
+      "en": "thunderstorm",
+      "gender": "n"
+    },
+    {
+      "id": "weather-w-019",
+      "category": "weather",
+      "type": "word",
+      "de": "der Wind",
+      "en": "wind",
+      "gender": "m"
+    },
+    {
+      "id": "weather-w-020",
+      "category": "weather",
+      "type": "word",
+      "de": "erstaunlich",
+      "en": "amazing / astonishing"
+    },
+    {
+      "id": "weather-w-021",
+      "category": "weather",
+      "type": "word",
+      "de": "im Gegenteil",
+      "en": "on the contrary"
+    },
+    {
+      "id": "weather-v-001",
+      "category": "weather",
+      "type": "verb",
+      "de": "frieren – hat gefroren",
+      "en": "to freeze / be cold"
+    },
+    {
+      "id": "weather-v-002",
+      "category": "weather",
+      "type": "verb",
+      "de": "träumen von – hat geträumt",
+      "en": "to dream of"
+    },
+    {
+      "id": "weather-v-003",
+      "category": "weather",
+      "type": "verb",
+      "de": "sich ärgern über – hat geärgert",
+      "en": "to be annoyed about"
+    },
+    {
+      "id": "weather-v-004",
+      "category": "weather",
+      "type": "verb",
+      "de": "zufrieden sein mit",
+      "en": "to be satisfied with"
+    },
+    {
+      "id": "weather-e-001",
+      "category": "weather",
+      "type": "expression",
+      "de": "Ist das wieder eine Hitze heute?!",
+      "en": "What heat again today?!"
+    },
+    {
+      "id": "weather-e-002",
+      "category": "weather",
+      "type": "expression",
+      "de": "Mir ist kalt. (NOT: Ich bin kalt!)",
+      "en": "I am cold. (correct German!)"
+    },
+    {
+      "id": "weather-e-003",
+      "category": "weather",
+      "type": "expression",
+      "de": "Es ist kalt / eisig / heiß / stürmisch / windig / trocken / sonnig / warm.",
+      "en": "It is cold / icy / hot / stormy / windy / dry / sunny / warm."
+    },
+    {
+      "id": "weather-e-004",
+      "category": "weather",
+      "type": "expression",
+      "de": "Es gibt Schnee / Niederschlag / Schauer / Hagel / Sturm / Nebel / Wind.",
+      "en": "There is snow / rain / showers / hail / storm / fog / wind."
+    },
+    {
+      "id": "weather-e-005",
+      "category": "weather",
+      "type": "expression",
+      "de": "Es schneit / regnet. / Die Sonne scheint.",
+      "en": "It's snowing / raining. / The sun is shining."
+    },
+    {
+      "id": "weather-e-006",
+      "category": "weather",
+      "type": "expression",
+      "de": "Es donnert und blitzt. / Es gibt Gewitter.",
+      "en": "It's thundering and lightning. / There's a thunderstorm."
+    },
+    {
+      "id": "weather-e-007",
+      "category": "weather",
+      "type": "expression",
+      "de": "Es sind … Grad. Nicht über … / Nicht niedriger als…",
+      "en": "It is … degrees. Not above… / Not lower than…"
+    },
+    {
+      "id": "weather-e-008",
+      "category": "weather",
+      "type": "expression",
+      "de": "Normalerweise ist das Wetter in Ägypten sehr schön.",
+      "en": "Normally the weather in Egypt is very nice."
+    },
+    {
+      "id": "weather-e-009",
+      "category": "weather",
+      "type": "expression",
+      "de": "Ist das typisch für die Jahreszeit?",
+      "en": "Is that typical for the season?"
+    },
+    {
+      "id": "weather-e-010",
+      "category": "weather",
+      "type": "expression",
+      "de": "Was tragen die Leute? Wie haben die es an?",
+      "en": "What do people wear? How do they dress?"
+    },
+    {
+      "id": "media-w-001",
+      "category": "media",
+      "type": "word",
+      "de": "die Serie",
+      "en": "TV series / show",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-002",
+      "category": "media",
+      "type": "word",
+      "de": "der Film",
+      "en": "film / movie",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-003",
+      "category": "media",
+      "type": "word",
+      "de": "die Vermutung",
+      "en": "suspicion / assumption",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-004",
+      "category": "media",
+      "type": "word",
+      "de": "die Kekse",
+      "en": "cookies / biscuits",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-005",
+      "category": "media",
+      "type": "word",
+      "de": "der Krimi",
+      "en": "crime thriller",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-006",
+      "category": "media",
+      "type": "word",
+      "de": "der Tatort",
+      "en": "crime scene / famous German show",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-007",
+      "category": "media",
+      "type": "word",
+      "de": "die DVD",
+      "en": "DVD",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-008",
+      "category": "media",
+      "type": "word",
+      "de": "die Fernbedienung",
+      "en": "remote control",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-009",
+      "category": "media",
+      "type": "word",
+      "de": "der Regisseur",
+      "en": "director",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-010",
+      "category": "media",
+      "type": "word",
+      "de": "der Rundfunk",
+      "en": "broadcasting / radio",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-011",
+      "category": "media",
+      "type": "word",
+      "de": "die Mediathek",
+      "en": "media library",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-012",
+      "category": "media",
+      "type": "word",
+      "de": "der Schauspieler / die Schauspielerin",
+      "en": "actor / actress",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-013",
+      "category": "media",
+      "type": "word",
+      "de": "der Darsteller",
+      "en": "performer",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-014",
+      "category": "media",
+      "type": "word",
+      "de": "der Zuschauer",
+      "en": "viewer / spectator",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-015",
+      "category": "media",
+      "type": "word",
+      "de": "die Sendung",
+      "en": "TV show / broadcast",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-016",
+      "category": "media",
+      "type": "word",
+      "de": "das Programm",
+      "en": "program / channel",
+      "gender": "n"
+    },
+    {
+      "id": "media-w-017",
+      "category": "media",
+      "type": "word",
+      "de": "der Kanal / der Sender",
+      "en": "channel / broadcaster",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-018",
+      "category": "media",
+      "type": "word",
+      "de": "die Folge",
+      "en": "episode",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-019",
+      "category": "media",
+      "type": "word",
+      "de": "die Gaststätte",
+      "en": "restaurant / pub",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-020",
+      "category": "media",
+      "type": "word",
+      "de": "die Kneipe",
+      "en": "pub / bar",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-021",
+      "category": "media",
+      "type": "word",
+      "de": "der Fall / die Fälle",
+      "en": "case(s)",
+      "gender": "m"
+    },
+    {
+      "id": "media-w-022",
+      "category": "media",
+      "type": "word",
+      "de": "die Gegend / der Ort",
+      "en": "area / place",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-023",
+      "category": "media",
+      "type": "word",
+      "de": "verliebt",
+      "en": "in love"
+    },
+    {
+      "id": "media-w-024",
+      "category": "media",
+      "type": "word",
+      "de": "verlobt",
+      "en": "engaged"
+    },
+    {
+      "id": "media-w-025",
+      "category": "media",
+      "type": "word",
+      "de": "gemütlich",
+      "en": "cozy / comfortable"
+    },
+    {
+      "id": "media-w-026",
+      "category": "media",
+      "type": "word",
+      "de": "Mist!",
+      "en": "Damn! / Crap!"
+    },
+    {
+      "id": "media-w-027",
+      "category": "media",
+      "type": "word",
+      "de": "inzwischen",
+      "en": "by now / meanwhile"
+    },
+    {
+      "id": "media-w-028",
+      "category": "media",
+      "type": "word",
+      "de": "eigen",
+      "en": "own"
+    },
+    {
+      "id": "media-w-029",
+      "category": "media",
+      "type": "word",
+      "de": "einige",
+      "en": "some"
+    },
+    {
+      "id": "media-w-030",
+      "category": "media",
+      "type": "word",
+      "de": "zufällig",
+      "en": "by chance / randomly"
+    },
+    {
+      "id": "media-w-031",
+      "category": "media",
+      "type": "word",
+      "de": "knapp",
+      "en": "tight / barely"
+    },
+    {
+      "id": "media-w-032",
+      "category": "media",
+      "type": "word",
+      "de": "verschieden",
+      "en": "different"
+    },
+    {
+      "id": "media-w-033",
+      "category": "media",
+      "type": "word",
+      "de": "das Gleiche / derselbe",
+      "en": "the same thing / the same",
+      "gender": "n"
+    },
+    {
+      "id": "media-w-034",
+      "category": "media",
+      "type": "word",
+      "de": "gucken",
+      "en": "to watch / look"
+    },
+    {
+      "id": "media-w-035",
+      "category": "media",
+      "type": "word",
+      "de": "die Abwechslung",
+      "en": "variety / change",
+      "gender": "f"
+    },
+    {
+      "id": "media-w-036",
+      "category": "media",
+      "type": "word",
+      "de": "durchschnittlich",
+      "en": "average / on average"
+    },
+    {
+      "id": "media-v-001",
+      "category": "media",
+      "type": "verb",
+      "de": "spielen",
+      "en": "to play"
+    },
+    {
+      "id": "media-v-002",
+      "category": "media",
+      "type": "verb",
+      "de": "knabbern",
+      "en": "to snack / nibble"
+    },
+    {
+      "id": "media-v-003",
+      "category": "media",
+      "type": "verb",
+      "de": "vermuten",
+      "en": "to suspect / assume"
+    },
+    {
+      "id": "media-v-004",
+      "category": "media",
+      "type": "verb",
+      "de": "sich konzentrieren",
+      "en": "to concentrate"
+    },
+    {
+      "id": "media-v-005",
+      "category": "media",
+      "type": "verb",
+      "de": "begegnen – hat getroffen",
+      "en": "to meet / encounter"
+    },
+    {
+      "id": "media-v-006",
+      "category": "media",
+      "type": "verb",
+      "de": "drehen – hat gedreht",
+      "en": "to film / shoot"
+    },
+    {
+      "id": "media-v-007",
+      "category": "media",
+      "type": "verb",
+      "de": "anfangen – hat angefangen",
+      "en": "to start / begin"
+    },
+    {
+      "id": "media-v-008",
+      "category": "media",
+      "type": "verb",
+      "de": "fehlen – hat gefehlt",
+      "en": "to be missing / to miss"
+    },
+    {
+      "id": "media-e-001",
+      "category": "media",
+      "type": "expression",
+      "de": "anschließend = dann",
+      "en": "afterwards = then"
+    },
+    {
+      "id": "media-e-002",
+      "category": "media",
+      "type": "expression",
+      "de": "schließlich = am Ende",
+      "en": "finally = in the end"
+    },
+    {
+      "id": "media-e-003",
+      "category": "media",
+      "type": "expression",
+      "de": "gemeinsam",
+      "en": "together"
+    },
+    {
+      "id": "media-e-004",
+      "category": "media",
+      "type": "expression",
+      "de": "die Sportschau",
+      "en": "sports show"
+    },
+    {
+      "id": "media-e-005",
+      "category": "media",
+      "type": "expression",
+      "de": "die Gemeinschaft",
+      "en": "community"
+    },
+    {
+      "id": "media-e-006",
+      "category": "media",
+      "type": "expression",
+      "de": "du bist ein Schatz",
+      "en": "you are a treasure / sweetheart"
+    },
+    {
+      "id": "media-e-007",
+      "category": "media",
+      "type": "expression",
+      "de": "Jetzt hätte ich gern, was zu knabbern.",
+      "en": "Now I'd like something to snack on."
+    },
+    {
+      "id": "media-e-008",
+      "category": "media",
+      "type": "expression",
+      "de": "der Abschnitt / die Gewohnheit",
+      "en": "section / habit"
+    },
+    {
+      "id": "media-e-009",
+      "category": "media",
+      "type": "expression",
+      "de": "Drama – Komödien – Liebesfilme",
+      "en": "drama – comedies – romance films"
+    },
+    {
+      "id": "culture-w-001",
+      "category": "culture",
+      "type": "word",
+      "de": "die Veranstaltung / -en",
+      "en": "event(s)",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-002",
+      "category": "culture",
+      "type": "word",
+      "de": "das Event",
+      "en": "event",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-003",
+      "category": "culture",
+      "type": "word",
+      "de": "die Lesung",
+      "en": "reading (literary)",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-004",
+      "category": "culture",
+      "type": "word",
+      "de": "die Vernissage",
+      "en": "art opening / exhibition",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-005",
+      "category": "culture",
+      "type": "word",
+      "de": "der Poetry Slam",
+      "en": "poetry slam",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-006",
+      "category": "culture",
+      "type": "word",
+      "de": "die Oper",
+      "en": "opera",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-007",
+      "category": "culture",
+      "type": "word",
+      "de": "das Musical",
+      "en": "musical",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-008",
+      "category": "culture",
+      "type": "word",
+      "de": "der Zirkus",
+      "en": "circus",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-009",
+      "category": "culture",
+      "type": "word",
+      "de": "der Stadtspaziergang",
+      "en": "city walk",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-010",
+      "category": "culture",
+      "type": "word",
+      "de": "der Fotoworkshop",
+      "en": "photography workshop",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-011",
+      "category": "culture",
+      "type": "word",
+      "de": "der Vortrag",
+      "en": "lecture / talk",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-012",
+      "category": "culture",
+      "type": "word",
+      "de": "das Konzert",
+      "en": "concert",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-013",
+      "category": "culture",
+      "type": "word",
+      "de": "das Puppentheater",
+      "en": "puppet theater",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-014",
+      "category": "culture",
+      "type": "word",
+      "de": "das Ballett",
+      "en": "ballet",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-015",
+      "category": "culture",
+      "type": "word",
+      "de": "die Konzerthalle",
+      "en": "concert hall",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-016",
+      "category": "culture",
+      "type": "word",
+      "de": "das Gedicht",
+      "en": "poem",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-017",
+      "category": "culture",
+      "type": "word",
+      "de": "das Referat",
+      "en": "presentation / report",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-018",
+      "category": "culture",
+      "type": "word",
+      "de": "der Atem",
+      "en": "breath",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-019",
+      "category": "culture",
+      "type": "word",
+      "de": "der Dichter",
+      "en": "poet",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-020",
+      "category": "culture",
+      "type": "word",
+      "de": "der Wettbewerb",
+      "en": "competition",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-021",
+      "category": "culture",
+      "type": "word",
+      "de": "der Wettkampf",
+      "en": "contest",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-022",
+      "category": "culture",
+      "type": "word",
+      "de": "das Publikum",
+      "en": "audience",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-023",
+      "category": "culture",
+      "type": "word",
+      "de": "die Disko",
+      "en": "disco / nightclub",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-024",
+      "category": "culture",
+      "type": "word",
+      "de": "der Club",
+      "en": "club",
+      "gender": "m"
+    },
+    {
+      "id": "culture-w-025",
+      "category": "culture",
+      "type": "word",
+      "de": "das Kammerspiel",
+      "en": "chamber play",
+      "gender": "n"
+    },
+    {
+      "id": "culture-w-026",
+      "category": "culture",
+      "type": "word",
+      "de": "die Kunst",
+      "en": "art",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-027",
+      "category": "culture",
+      "type": "word",
+      "de": "die Einweihung",
+      "en": "opening / inauguration",
+      "gender": "f"
+    },
+    {
+      "id": "culture-w-028",
+      "category": "culture",
+      "type": "word",
+      "de": "sehenswert",
+      "en": "worth seeing"
+    },
+    {
+      "id": "culture-w-029",
+      "category": "culture",
+      "type": "word",
+      "de": "empfehlenswert",
+      "en": "worth recommending"
+    },
+    {
+      "id": "culture-v-001",
+      "category": "culture",
+      "type": "verb",
+      "de": "vortragen – hat vorgetragen",
+      "en": "to recite / present"
+    },
+    {
+      "id": "culture-v-002",
+      "category": "culture",
+      "type": "verb",
+      "de": "leiten – hat geleitet",
+      "en": "to lead / manage"
+    },
+    {
+      "id": "culture-e-001",
+      "category": "culture",
+      "type": "expression",
+      "de": "Probier / Versuch das doch mal!",
+      "en": "Just give it a try!"
+    },
+    {
+      "id": "culture-e-002",
+      "category": "culture",
+      "type": "expression",
+      "de": "Ich bin dagegen!",
+      "en": "I am against it!"
+    },
+    {
+      "id": "culture-e-003",
+      "category": "culture",
+      "type": "expression",
+      "de": "Das hat sicher Spaß gemacht!",
+      "en": "That was surely fun!"
+    },
+    {
+      "id": "culture-e-004",
+      "category": "culture",
+      "type": "expression",
+      "de": "Das ist wahr – du hast recht!",
+      "en": "That is true – you are right!"
+    },
+    {
+      "id": "culture-e-005",
+      "category": "culture",
+      "type": "expression",
+      "de": "Weltberühmt! Unsinn! Erstaunlich!",
+      "en": "World-famous! Nonsense! Amazing!"
+    },
+    {
+      "id": "culture-e-006",
+      "category": "culture",
+      "type": "expression",
+      "de": "Das lohnt sich bestimmt!",
+      "en": "It is definitely worth it!"
+    },
+    {
+      "id": "culture-e-007",
+      "category": "culture",
+      "type": "expression",
+      "de": "Das hört sich ja nicht so toll an.",
+      "en": "That doesn't sound so great."
+    },
+    {
+      "id": "culture-e-008",
+      "category": "culture",
+      "type": "expression",
+      "de": "Glaub mir.",
+      "en": "Trust me."
+    },
+    {
+      "id": "culture-e-009",
+      "category": "culture",
+      "type": "expression",
+      "de": "Das ist mal etwas anderes / Neues / Besonders.",
+      "en": "That is something different / new / special."
+    },
+    {
+      "id": "culture-e-010",
+      "category": "culture",
+      "type": "expression",
+      "de": "Neugierig – Neueröffnung",
+      "en": "curious – new opening"
+    },
+    {
+      "id": "culture-e-011",
+      "category": "culture",
+      "type": "expression",
+      "de": "Eine Person überzeugen",
+      "en": "to convince a person"
+    },
+    {
+      "id": "culture-e-012",
+      "category": "culture",
+      "type": "expression",
+      "de": "Er trägt ein Gedicht vor.",
+      "en": "He recites a poem."
+    },
+    {
+      "id": "culture-e-013",
+      "category": "culture",
+      "type": "expression",
+      "de": "International – bekannt – berühmt",
+      "en": "international – known – famous"
+    },
+    {
+      "id": "culture-e-014",
+      "category": "culture",
+      "type": "expression",
+      "de": "Wofür interessierst du dich?",
+      "en": "What are you interested in?"
+    },
+    {
+      "id": "culture-e-015",
+      "category": "culture",
+      "type": "expression",
+      "de": "Wollen wir etwas unternehmen? / zusammen weggehen?",
+      "en": "Shall we do something? / go out together?"
+    },
+    {
+      "id": "culture-e-016",
+      "category": "culture",
+      "type": "expression",
+      "de": "Ich habe einen tollen Vorschlag!",
+      "en": "I have a great suggestion!"
+    },
+    {
+      "id": "culture-e-017",
+      "category": "culture",
+      "type": "expression",
+      "de": "Lass uns da hingehen!",
+      "en": "Let's go there!"
+    },
+    {
+      "id": "culture-e-018",
+      "category": "culture",
+      "type": "expression",
+      "de": "Okay, machen wir es so.",
+      "en": "Okay, let's do it that way."
+    },
+    {
+      "id": "books-w-001",
+      "category": "books",
+      "type": "word",
+      "de": "die Bücherarten",
+      "en": "types of books",
+      "gender": "f"
+    },
+    {
+      "id": "books-w-002",
+      "category": "books",
+      "type": "word",
+      "de": "das Märchen",
+      "en": "fairy tale",
+      "gender": "n"
+    },
+    {
+      "id": "books-w-003",
+      "category": "books",
+      "type": "word",
+      "de": "die Zeitung",
+      "en": "newspaper",
+      "gender": "f"
+    },
+    {
+      "id": "books-w-004",
+      "category": "books",
+      "type": "word",
+      "de": "das Bilderbuch",
+      "en": "picture book",
+      "gender": "n"
+    },
+    {
+      "id": "books-w-005",
+      "category": "books",
+      "type": "word",
+      "de": "das Hörbuch",
+      "en": "audiobook",
+      "gender": "n"
+    },
+    {
+      "id": "books-w-006",
+      "category": "books",
+      "type": "word",
+      "de": "das Sachbuch",
+      "en": "non-fiction book",
+      "gender": "n"
+    },
+    {
+      "id": "books-w-007",
+      "category": "books",
+      "type": "word",
+      "de": "das Kinderbuch",
+      "en": "children's book",
+      "gender": "n"
+    },
+    {
+      "id": "books-w-008",
+      "category": "books",
+      "type": "word",
+      "de": "das Gedicht",
+      "en": "poem",
+      "gender": "n"
+    },
+    {
+      "id": "books-w-009",
+      "category": "books",
+      "type": "word",
+      "de": "der Ratgeber",
+      "en": "self-help / guide book",
+      "gender": "m"
+    },
+    {
+      "id": "books-w-010",
+      "category": "books",
+      "type": "word",
+      "de": "der Krimi",
+      "en": "crime novel",
+      "gender": "m"
+    },
+    {
+      "id": "books-w-011",
+      "category": "books",
+      "type": "word",
+      "de": "die Zeitschrift",
+      "en": "magazine",
+      "gender": "f"
+    },
+    {
+      "id": "books-w-012",
+      "category": "books",
+      "type": "word",
+      "de": "der Comic",
+      "en": "comic",
+      "gender": "m"
+    },
+    {
+      "id": "books-w-013",
+      "category": "books",
+      "type": "word",
+      "de": "der Roman",
+      "en": "novel",
+      "gender": "m"
+    },
+    {
+      "id": "books-w-014",
+      "category": "books",
+      "type": "word",
+      "de": "seltsam",
+      "en": "strange / weird"
+    },
+    {
+      "id": "books-w-015",
+      "category": "books",
+      "type": "word",
+      "de": "die Haltestelle",
+      "en": "bus stop",
+      "gender": "f"
+    },
+    {
+      "id": "books-w-016",
+      "category": "books",
+      "type": "word",
+      "de": "der Alltag",
+      "en": "daily life",
+      "gender": "m"
+    },
+    {
+      "id": "books-w-017",
+      "category": "books",
+      "type": "word",
+      "de": "das Wesen",
+      "en": "creature / being",
+      "gender": "n"
+    },
+    {
+      "id": "books-w-018",
+      "category": "books",
+      "type": "word",
+      "de": "der Befehl",
+      "en": "command",
+      "gender": "m"
+    },
+    {
+      "id": "books-w-019",
+      "category": "books",
+      "type": "word",
+      "de": "der König",
+      "en": "king",
+      "gender": "m"
+    },
+    {
+      "id": "books-w-020",
+      "category": "books",
+      "type": "word",
+      "de": "die Gurke",
+      "en": "cucumber",
+      "gender": "f"
+    },
+    {
+      "id": "books-v-001",
+      "category": "books",
+      "type": "verb",
+      "de": "schlagen – hat geschlagen",
+      "en": "to hit / beat"
+    },
+    {
+      "id": "books-v-002",
+      "category": "books",
+      "type": "verb",
+      "de": "verpassen",
+      "en": "to miss (bus/train)"
+    },
+    {
+      "id": "books-v-003",
+      "category": "books",
+      "type": "verb",
+      "de": "aufpassen",
+      "en": "to watch out / pay attention"
+    },
+    {
+      "id": "books-v-004",
+      "category": "books",
+      "type": "verb",
+      "de": "steigen",
+      "en": "to get on / climb"
+    },
+    {
+      "id": "books-v-005",
+      "category": "books",
+      "type": "verb",
+      "de": "gehören zu",
+      "en": "to belong to"
+    },
+    {
+      "id": "books-v-006",
+      "category": "books",
+      "type": "verb",
+      "de": "sich erinnern an",
+      "en": "to remember"
+    },
+    {
+      "id": "books-v-007",
+      "category": "books",
+      "type": "verb",
+      "de": "zugeben",
+      "en": "to admit"
+    },
+    {
+      "id": "books-v-008",
+      "category": "books",
+      "type": "verb",
+      "de": "entkommen",
+      "en": "to escape"
+    },
+    {
+      "id": "books-e-001",
+      "category": "books",
+      "type": "expression",
+      "de": "Liest du gern Romane / Bücher?",
+      "en": "Do you like reading novels / books?"
+    },
+    {
+      "id": "books-e-002",
+      "category": "books",
+      "type": "expression",
+      "de": "Was für Bücher liest du gerne?",
+      "en": "What kind of books do you like?"
+    },
+    {
+      "id": "books-e-003",
+      "category": "books",
+      "type": "expression",
+      "de": "Das interessiert mich sehr!",
+      "en": "That interests me a lot!"
+    },
+    {
+      "id": "books-e-004",
+      "category": "books",
+      "type": "expression",
+      "de": "Das interessiert mich überhaupt nicht!",
+      "en": "That doesn't interest me at all!"
+    },
+    {
+      "id": "books-e-005",
+      "category": "books",
+      "type": "expression",
+      "de": "Nicht besonders.",
+      "en": "Not particularly."
+    },
+    {
+      "id": "books-e-006",
+      "category": "books",
+      "type": "expression",
+      "de": "Ja, und wie!",
+      "en": "Yes, absolutely! (enthusiastic)"
+    },
+    {
+      "id": "books-e-007",
+      "category": "books",
+      "type": "expression",
+      "de": "Nein, Ratgeber finde ich ehrlich gesagt langweilig.",
+      "en": "No, honestly I find self-help books boring."
+    },
+    {
+      "id": "books-e-008",
+      "category": "books",
+      "type": "expression",
+      "de": "Doch, ich habe großes Interesse daran.",
+      "en": "Yes actually, I have great interest in it."
+    },
+    {
+      "id": "books-e-009",
+      "category": "books",
+      "type": "expression",
+      "de": "Ehrlich gesagt finde ich das langweilig.",
+      "en": "Honestly I find that boring."
+    },
+    {
+      "id": "books-e-010",
+      "category": "books",
+      "type": "expression",
+      "de": "Das schaffe ich nur selten.",
+      "en": "I rarely manage to do that."
+    },
+    {
+      "id": "books-e-011",
+      "category": "books",
+      "type": "expression",
+      "de": "Doch! (= Yes! when contradicting a negative)",
+      "en": "Yes! (used to contradict a negative question)"
+    },
+    {
+      "id": "books-e-012",
+      "category": "books",
+      "type": "expression",
+      "de": "Er ist dem Polizisten entkommen!",
+      "en": "He escaped from the policeman!"
+    },
+    {
+      "id": "books-e-013",
+      "category": "books",
+      "type": "expression",
+      "de": "Er hat seinen Fehler zugegeben.",
+      "en": "He admitted his mistake."
+    },
+    {
+      "id": "books-e-014",
+      "category": "books",
+      "type": "expression",
+      "de": "Ich erinnere mich an meine Kindheit nicht.",
+      "en": "I don't remember my childhood."
+    },
+    {
+      "id": "police-w-001",
+      "category": "police",
+      "type": "word",
+      "de": "der Einbruch / -üe",
+      "en": "break-in / burglary",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-002",
+      "category": "police",
+      "type": "word",
+      "de": "der Autounfall",
+      "en": "car accident",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-003",
+      "category": "police",
+      "type": "word",
+      "de": "die Feuerwehr",
+      "en": "fire brigade",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-004",
+      "category": "police",
+      "type": "word",
+      "de": "der Notarzt",
+      "en": "emergency doctor",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-005",
+      "category": "police",
+      "type": "word",
+      "de": "die Versicherung",
+      "en": "insurance",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-006",
+      "category": "police",
+      "type": "word",
+      "de": "die Polizei",
+      "en": "police",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-007",
+      "category": "police",
+      "type": "word",
+      "de": "der Dieb / die Diebe",
+      "en": "thief / thieves",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-008",
+      "category": "police",
+      "type": "word",
+      "de": "der Einbrecher",
+      "en": "burglar",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-009",
+      "category": "police",
+      "type": "word",
+      "de": "der Diebstahl / -äe",
+      "en": "theft",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-010",
+      "category": "police",
+      "type": "word",
+      "de": "der Täter",
+      "en": "perpetrator",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-011",
+      "category": "police",
+      "type": "word",
+      "de": "das Opfer",
+      "en": "victim",
+      "gender": "n"
+    },
+    {
+      "id": "police-w-012",
+      "category": "police",
+      "type": "word",
+      "de": "der Fingerabdruck / -üe",
+      "en": "fingerprint",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-013",
+      "category": "police",
+      "type": "word",
+      "de": "der Geldbeutel",
+      "en": "wallet",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-014",
+      "category": "police",
+      "type": "word",
+      "de": "die Geldbörse",
+      "en": "purse",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-015",
+      "category": "police",
+      "type": "word",
+      "de": "die EC-Karte",
+      "en": "debit card",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-016",
+      "category": "police",
+      "type": "word",
+      "de": "der Ausweis",
+      "en": "ID card",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-017",
+      "category": "police",
+      "type": "word",
+      "de": "die Gesundheitskarte",
+      "en": "health insurance card",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-018",
+      "category": "police",
+      "type": "word",
+      "de": "die Kundenkarte",
+      "en": "loyalty card",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-019",
+      "category": "police",
+      "type": "word",
+      "de": "die Telefonkarte",
+      "en": "phone card",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-020",
+      "category": "police",
+      "type": "word",
+      "de": "die Kreditkarte",
+      "en": "credit card",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-021",
+      "category": "police",
+      "type": "word",
+      "de": "das Bargeld",
+      "en": "cash",
+      "gender": "n"
+    },
+    {
+      "id": "police-w-022",
+      "category": "police",
+      "type": "word",
+      "de": "der Führerschein",
+      "en": "driving licence",
+      "gender": "m"
+    },
+    {
+      "id": "police-w-023",
+      "category": "police",
+      "type": "word",
+      "de": "die Angaben",
+      "en": "details / information",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-024",
+      "category": "police",
+      "type": "word",
+      "de": "die Autoscheibe",
+      "en": "car window",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-025",
+      "category": "police",
+      "type": "word",
+      "de": "die Wertgegenstände",
+      "en": "valuables",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-026",
+      "category": "police",
+      "type": "word",
+      "de": "die Fußmatte",
+      "en": "doormat",
+      "gender": "f"
+    },
+    {
+      "id": "police-w-027",
+      "category": "police",
+      "type": "word",
+      "de": "das Sicherheitsschloss",
+      "en": "security lock",
+      "gender": "n"
+    },
+    {
+      "id": "police-w-028",
+      "category": "police",
+      "type": "word",
+      "de": "die Ehefrau",
+      "en": "wife",
+      "gender": "f"
+    },
+    {
+      "id": "police-v-001",
+      "category": "police",
+      "type": "verb",
+      "de": "stehlen – hat gestohlen",
+      "en": "to steal"
+    },
+    {
+      "id": "police-v-002",
+      "category": "police",
+      "type": "verb",
+      "de": "feststellen – hat festgestellt",
+      "en": "to determine / find out"
+    },
+    {
+      "id": "police-v-003",
+      "category": "police",
+      "type": "verb",
+      "de": "absperren – hat abgesperrt",
+      "en": "to cordon off"
+    },
+    {
+      "id": "police-v-004",
+      "category": "police",
+      "type": "verb",
+      "de": "einschlagen – hat eingeschlagen",
+      "en": "to smash"
+    },
+    {
+      "id": "police-v-005",
+      "category": "police",
+      "type": "verb",
+      "de": "losrennen – ist losgerannt",
+      "en": "to run off"
+    },
+    {
+      "id": "police-v-006",
+      "category": "police",
+      "type": "verb",
+      "de": "weglaufen – ist weggelaufen",
+      "en": "to run away"
+    },
+    {
+      "id": "police-v-007",
+      "category": "police",
+      "type": "verb",
+      "de": "zerbrechen – ist zerbrochen",
+      "en": "to break / shatter"
+    },
+    {
+      "id": "police-v-008",
+      "category": "police",
+      "type": "verb",
+      "de": "wiedererkennen – hat wiedererkannt",
+      "en": "to recognize again"
+    },
+    {
+      "id": "police-v-009",
+      "category": "police",
+      "type": "verb",
+      "de": "aufbrechen – ist aufgebrochen",
+      "en": "to force open"
+    },
+    {
+      "id": "police-v-010",
+      "category": "police",
+      "type": "verb",
+      "de": "abschließen – hat abgeschlossen",
+      "en": "to lock"
+    },
+    {
+      "id": "police-e-001",
+      "category": "police",
+      "type": "expression",
+      "de": "Das darf doch nicht wahr sein!",
+      "en": "That can't be true!"
+    },
+    {
+      "id": "police-e-002",
+      "category": "police",
+      "type": "expression",
+      "de": "So ein verdammter Mist!",
+      "en": "What a damn mess!"
+    },
+    {
+      "id": "police-e-003",
+      "category": "police",
+      "type": "expression",
+      "de": "Das gibt es doch nicht!",
+      "en": "Unbelievable!"
+    },
+    {
+      "id": "police-e-004",
+      "category": "police",
+      "type": "expression",
+      "de": "Bleib stehen!",
+      "en": "Stop right there!"
+    },
+    {
+      "id": "police-e-005",
+      "category": "police",
+      "type": "expression",
+      "de": "eine Anzeige bei der Polizei machen",
+      "en": "to file a police report"
+    },
+    {
+      "id": "police-e-006",
+      "category": "police",
+      "type": "expression",
+      "de": "Wo waren Sie?",
+      "en": "Where were you?"
+    },
+    {
+      "id": "police-e-007",
+      "category": "police",
+      "type": "expression",
+      "de": "Was haben Sie gemacht?",
+      "en": "What did you do?"
+    },
+    {
+      "id": "police-e-008",
+      "category": "police",
+      "type": "expression",
+      "de": "Gibt es dafür Zeugen?",
+      "en": "Are there any witnesses?"
+    },
+    {
+      "id": "police-e-009",
+      "category": "police",
+      "type": "expression",
+      "de": "Können Sie das näher beschreiben?",
+      "en": "Can you describe that in more detail?"
+    },
+    {
+      "id": "police-e-010",
+      "category": "police",
+      "type": "expression",
+      "de": "Daran kann ich mich nicht mehr erinnern.",
+      "en": "I can no longer remember that."
+    },
+    {
+      "id": "police-e-011",
+      "category": "police",
+      "type": "expression",
+      "de": "Meine Fenster haben ein Sicherheitsschloss.",
+      "en": "My windows have a security lock."
+    },
+    {
+      "id": "police-e-012",
+      "category": "police",
+      "type": "expression",
+      "de": "schmal = der Flur ist schmal",
+      "en": "narrow = the hallway is narrow"
+    },
+    {
+      "id": "police-e-013",
+      "category": "police",
+      "type": "expression",
+      "de": "sichern = das Fenster sichern",
+      "en": "to secure = to secure the window"
+    },
+    {
+      "id": "police-e-014",
+      "category": "police",
+      "type": "expression",
+      "de": "Exakt = genau",
+      "en": "exactly = precisely"
+    },
+    {
+      "id": "internet-w-001",
+      "category": "internet",
+      "type": "word",
+      "de": "das Podcast",
+      "en": "podcast",
+      "gender": "n"
+    },
+    {
+      "id": "internet-w-002",
+      "category": "internet",
+      "type": "word",
+      "de": "die Unterlagen",
+      "en": "documents / files",
+      "gender": "f"
+    },
+    {
+      "id": "internet-w-003",
+      "category": "internet",
+      "type": "word",
+      "de": "die Chipkarte",
+      "en": "chip card",
+      "gender": "f"
+    },
+    {
+      "id": "internet-w-004",
+      "category": "internet",
+      "type": "word",
+      "de": "die Anmeldung",
+      "en": "registration / sign-up",
+      "gender": "f"
+    },
+    {
+      "id": "internet-w-005",
+      "category": "internet",
+      "type": "word",
+      "de": "der Benutzername",
+      "en": "username",
+      "gender": "m"
+    },
+    {
+      "id": "internet-w-006",
+      "category": "internet",
+      "type": "word",
+      "de": "das Passwort",
+      "en": "password",
+      "gender": "n"
+    },
+    {
+      "id": "internet-w-007",
+      "category": "internet",
+      "type": "word",
+      "de": "der Buchstabe",
+      "en": "letter (alphabet)",
+      "gender": "m"
+    },
+    {
+      "id": "internet-w-008",
+      "category": "internet",
+      "type": "word",
+      "de": "die Zahl",
+      "en": "number",
+      "gender": "f"
+    },
+    {
+      "id": "internet-w-009",
+      "category": "internet",
+      "type": "word",
+      "de": "das Sonderzeichen",
+      "en": "special character (@ # !)",
+      "gender": "n"
+    },
+    {
+      "id": "internet-w-010",
+      "category": "internet",
+      "type": "word",
+      "de": "die Steuern",
+      "en": "taxes",
+      "gender": "f"
+    },
+    {
+      "id": "internet-w-011",
+      "category": "internet",
+      "type": "word",
+      "de": "außerhalb",
+      "en": "outside / beyond"
+    },
+    {
+      "id": "internet-w-012",
+      "category": "internet",
+      "type": "word",
+      "de": "umweltfreundlich",
+      "en": "environmentally friendly"
+    },
+    {
+      "id": "internet-w-013",
+      "category": "internet",
+      "type": "word",
+      "de": "preiswert / günstig / billig",
+      "en": "affordable / good value / cheap"
+    },
+    {
+      "id": "internet-w-014",
+      "category": "internet",
+      "type": "word",
+      "de": "das KFZ = Kraftfahrzeug = der Wagen",
+      "en": "motor vehicle = car",
+      "gender": "n"
+    },
+    {
+      "id": "internet-v-001",
+      "category": "internet",
+      "type": "verb",
+      "de": "anmelden",
+      "en": "to register / sign up"
+    },
+    {
+      "id": "internet-v-002",
+      "category": "internet",
+      "type": "verb",
+      "de": "anklicken",
+      "en": "to click on"
+    },
+    {
+      "id": "internet-v-003",
+      "category": "internet",
+      "type": "verb",
+      "de": "etwas ausdrucken",
+      "en": "to print something out"
+    },
+    {
+      "id": "internet-v-004",
+      "category": "internet",
+      "type": "verb",
+      "de": "einloggen",
+      "en": "to log in"
+    },
+    {
+      "id": "internet-v-005",
+      "category": "internet",
+      "type": "verb",
+      "de": "etwas ausfüllen",
+      "en": "to fill something out"
+    },
+    {
+      "id": "internet-v-006",
+      "category": "internet",
+      "type": "verb",
+      "de": "kopieren",
+      "en": "to copy"
+    },
+    {
+      "id": "internet-v-007",
+      "category": "internet",
+      "type": "verb",
+      "de": "teilen",
+      "en": "to share"
+    },
+    {
+      "id": "internet-v-008",
+      "category": "internet",
+      "type": "verb",
+      "de": "erreichen",
+      "en": "to reach"
+    },
+    {
+      "id": "internet-v-009",
+      "category": "internet",
+      "type": "verb",
+      "de": "kümmern",
+      "en": "to take care of"
+    },
+    {
+      "id": "internet-v-010",
+      "category": "internet",
+      "type": "verb",
+      "de": "sich entwickeln – hat entwickelt",
+      "en": "to develop"
+    },
+    {
+      "id": "internet-v-011",
+      "category": "internet",
+      "type": "verb",
+      "de": "herunterladen",
+      "en": "to download"
+    },
+    {
+      "id": "internet-v-012",
+      "category": "internet",
+      "type": "verb",
+      "de": "hochladen",
+      "en": "to upload"
+    },
+    {
+      "id": "internet-e-001",
+      "category": "internet",
+      "type": "expression",
+      "de": "man benutzt kein eigenes Auto",
+      "en": "you don't use your own car"
+    },
+    {
+      "id": "internet-e-002",
+      "category": "internet",
+      "type": "expression",
+      "de": "man teilt eines mit anderen!",
+      "en": "you share one with others!"
+    },
+    {
+      "id": "internet-e-003",
+      "category": "internet",
+      "type": "expression",
+      "de": "sich entscheiden für / gegen",
+      "en": "to decide for / against"
+    },
+    {
+      "id": "internet-e-004",
+      "category": "internet",
+      "type": "expression",
+      "de": "Ich wähle… / das lohnt sich",
+      "en": "I choose… / it is worth it"
+    },
+    {
+      "id": "internet-e-005",
+      "category": "internet",
+      "type": "expression",
+      "de": "Zuerst – dann – danach – und dann – daraufhin",
+      "en": "First – then – after that – and then – following that"
+    },
+    {
+      "id": "internet-e-006",
+      "category": "internet",
+      "type": "expression",
+      "de": "Als Nächstes – anschließend – zuletzt",
+      "en": "Next – afterwards – finally"
+    },
+    {
+      "id": "internet-e-007",
+      "category": "internet",
+      "type": "expression",
+      "de": "die Anleitung",
+      "en": "instruction / guide"
+    },
+    {
+      "id": "internet-e-008",
+      "category": "internet",
+      "type": "expression",
+      "de": "Der Vertrag – die Filiale – Zugangsdaten",
+      "en": "The contract – branch – access data"
+    },
+    {
+      "id": "internet-e-009",
+      "category": "internet",
+      "type": "expression",
+      "de": "Bestätigen",
+      "en": "to confirm"
+    },
+    {
+      "id": "internet-e-010",
+      "category": "internet",
+      "type": "expression",
+      "de": "Verbinden",
+      "en": "to connect"
+    },
+    {
+      "id": "internet-e-011",
+      "category": "internet",
+      "type": "expression",
+      "de": "In der Verkehrssprache!",
+      "en": "In transport language!"
+    },
+    {
+      "id": "internet-e-012",
+      "category": "internet",
+      "type": "expression",
+      "de": "Wie geht das?",
+      "en": "How does that work?"
+    },
+    {
+      "id": "internet-e-013",
+      "category": "internet",
+      "type": "expression",
+      "de": "Können Sie mir das bitte erklären?",
+      "en": "Could you please explain that to me?"
+    },
+    {
+      "id": "internet-e-014",
+      "category": "internet",
+      "type": "expression",
+      "de": "Kein Problem! Gern!",
+      "en": "No problem! With pleasure!"
+    },
+    {
+      "id": "internet-e-015",
+      "category": "internet",
+      "type": "expression",
+      "de": "Na klar! Das ist ganz einfach.",
+      "en": "Of course! That is very simple."
+    },
+    {
+      "id": "education-w-001",
+      "category": "education",
+      "type": "word",
+      "de": "das Studium",
+      "en": "university studies",
+      "gender": "n"
+    },
+    {
+      "id": "education-w-002",
+      "category": "education",
+      "type": "word",
+      "de": "die Schule",
+      "en": "school",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-003",
+      "category": "education",
+      "type": "word",
+      "de": "die Note",
+      "en": "grade / mark",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-004",
+      "category": "education",
+      "type": "word",
+      "de": "das Zeugnis",
+      "en": "school report / certificate",
+      "gender": "n"
+    },
+    {
+      "id": "education-w-005",
+      "category": "education",
+      "type": "word",
+      "de": "die mündliche Prüfung",
+      "en": "oral exam",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-006",
+      "category": "education",
+      "type": "word",
+      "de": "die schriftliche Prüfung",
+      "en": "written exam",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-007",
+      "category": "education",
+      "type": "word",
+      "de": "der Schulabschluss",
+      "en": "school graduation",
+      "gender": "m"
+    },
+    {
+      "id": "education-w-008",
+      "category": "education",
+      "type": "word",
+      "de": "die Ausbildung",
+      "en": "apprenticeship / training",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-009",
+      "category": "education",
+      "type": "word",
+      "de": "die Lehre",
+      "en": "apprenticeship",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-010",
+      "category": "education",
+      "type": "word",
+      "de": "die Universität",
+      "en": "university",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-011",
+      "category": "education",
+      "type": "word",
+      "de": "das Semester",
+      "en": "semester",
+      "gender": "n"
+    },
+    {
+      "id": "education-w-012",
+      "category": "education",
+      "type": "word",
+      "de": "der Lebenslauf",
+      "en": "CV / resume",
+      "gender": "m"
+    },
+    {
+      "id": "education-w-013",
+      "category": "education",
+      "type": "word",
+      "de": "die Bewerbung",
+      "en": "job application",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-014",
+      "category": "education",
+      "type": "word",
+      "de": "die Wahl",
+      "en": "choice",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-015",
+      "category": "education",
+      "type": "word",
+      "de": "die Berufswahl",
+      "en": "career choice",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-016",
+      "category": "education",
+      "type": "word",
+      "de": "der Autor",
+      "en": "author",
+      "gender": "m"
+    },
+    {
+      "id": "education-w-017",
+      "category": "education",
+      "type": "word",
+      "de": "der Schreiner",
+      "en": "carpenter",
+      "gender": "m"
+    },
+    {
+      "id": "education-w-018",
+      "category": "education",
+      "type": "word",
+      "de": "das Jurastudium",
+      "en": "law studies",
+      "gender": "n"
+    },
+    {
+      "id": "education-w-019",
+      "category": "education",
+      "type": "word",
+      "de": "der Landschaftsgärtner",
+      "en": "landscape gardener",
+      "gender": "m"
+    },
+    {
+      "id": "education-w-020",
+      "category": "education",
+      "type": "word",
+      "de": "die Tätigkeit",
+      "en": "activity / occupation",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-021",
+      "category": "education",
+      "type": "word",
+      "de": "das Abitur",
+      "en": "high school diploma (German)",
+      "gender": "n"
+    },
+    {
+      "id": "education-w-022",
+      "category": "education",
+      "type": "word",
+      "de": "die Zufriedenheit",
+      "en": "satisfaction",
+      "gender": "f"
+    },
+    {
+      "id": "education-w-023",
+      "category": "education",
+      "type": "word",
+      "de": "das Betriebsklima",
+      "en": "work atmosphere",
+      "gender": "n"
+    },
+    {
+      "id": "education-w-024",
+      "category": "education",
+      "type": "word",
+      "de": "die Teilzeit",
+      "en": "part-time",
+      "gender": "f"
+    },
+    {
+      "id": "education-v-001",
+      "category": "education",
+      "type": "verb",
+      "de": "sich bewerben",
+      "en": "to apply (for a job)"
+    },
+    {
+      "id": "education-v-002",
+      "category": "education",
+      "type": "verb",
+      "de": "ausprobieren",
+      "en": "to try out"
+    },
+    {
+      "id": "education-v-003",
+      "category": "education",
+      "type": "verb",
+      "de": "empfehlen",
+      "en": "to recommend"
+    },
+    {
+      "id": "education-v-004",
+      "category": "education",
+      "type": "verb",
+      "de": "beenden – hat beendet",
+      "en": "to finish / end"
+    },
+    {
+      "id": "education-v-005",
+      "category": "education",
+      "type": "verb",
+      "de": "wählen",
+      "en": "to choose"
+    },
+    {
+      "id": "education-v-006",
+      "category": "education",
+      "type": "verb",
+      "de": "Rat geben",
+      "en": "to give advice"
+    },
+    {
+      "id": "education-v-007",
+      "category": "education",
+      "type": "verb",
+      "de": "abschließen – hat abgeschlossen",
+      "en": "to complete / finish"
+    },
+    {
+      "id": "education-v-008",
+      "category": "education",
+      "type": "verb",
+      "de": "aufhören mit etwas",
+      "en": "to stop doing something"
+    },
+    {
+      "id": "education-v-009",
+      "category": "education",
+      "type": "verb",
+      "de": "kündigen",
+      "en": "to quit / resign"
+    },
+    {
+      "id": "education-v-010",
+      "category": "education",
+      "type": "verb",
+      "de": "leihen – hat geliehen",
+      "en": "to borrow / lend"
+    },
+    {
+      "id": "education-e-001",
+      "category": "education",
+      "type": "expression",
+      "de": "Ist du zufrieden mit deinem Job?",
+      "en": "Are you satisfied with your job?"
+    },
+    {
+      "id": "education-e-002",
+      "category": "education",
+      "type": "expression",
+      "de": "Na ja, es geht. Der Job ist ok!",
+      "en": "Well, it's okay. The job is fine!"
+    },
+    {
+      "id": "education-e-003",
+      "category": "education",
+      "type": "expression",
+      "de": "Ich habe fest vor…",
+      "en": "I firmly intend to…"
+    },
+    {
+      "id": "education-e-004",
+      "category": "education",
+      "type": "expression",
+      "de": "Nein, ich bin sehr unzufrieden damit!",
+      "en": "No, I am very dissatisfied with it!"
+    },
+    {
+      "id": "education-e-005",
+      "category": "education",
+      "type": "expression",
+      "de": "Das stört mich!! Das ärgert mich – ich habe genug!",
+      "en": "That bothers me!! That annoys me – I've had enough!"
+    },
+    {
+      "id": "education-e-006",
+      "category": "education",
+      "type": "expression",
+      "de": "Nein, leider nicht – ich habe keine flexiblen Arbeitszeiten.",
+      "en": "No, unfortunately not – I have no flexible working hours."
+    },
+    {
+      "id": "education-e-007",
+      "category": "education",
+      "type": "expression",
+      "de": "Auf jeden Fall – mein Job macht mir großen Spaß!",
+      "en": "Definitely – my job is a lot of fun!"
+    },
+    {
+      "id": "education-e-008",
+      "category": "education",
+      "type": "expression",
+      "de": "Ich finde meinen Beruf prima / toll / wunderbar!",
+      "en": "I find my job great / wonderful!"
+    },
+    {
+      "id": "education-e-009",
+      "category": "education",
+      "type": "expression",
+      "de": "Deshalb möchte ich kündigen!",
+      "en": "That's why I want to quit!"
+    },
+    {
+      "id": "education-e-010",
+      "category": "education",
+      "type": "expression",
+      "de": "Reisevorbereitungen",
+      "en": "travel preparations"
+    },
+    {
+      "id": "education-e-011",
+      "category": "education",
+      "type": "expression",
+      "de": "Wie ist sein Befinden?",
+      "en": "How is he doing?"
+    },
+    {
+      "id": "education-e-012",
+      "category": "education",
+      "type": "expression",
+      "de": "Das ist nicht mein Ding!",
+      "en": "That is not my thing!"
+    },
+    {
+      "id": "education-e-013",
+      "category": "education",
+      "type": "expression",
+      "de": "empfehlenswert",
+      "en": "worth recommending"
+    },
+    {
+      "id": "education-e-014",
+      "category": "education",
+      "type": "expression",
+      "de": "Das ärgert mich = Das stört mich!",
+      "en": "That annoys me = That bothers me!"
+    },
+    {
+      "id": "education-e-015",
+      "category": "education",
+      "type": "expression",
+      "de": "vor. haben / Was hast du heute vor?",
+      "en": "to plan / What are you planning today?"
+    },
+    {
+      "id": "abroad-w-001",
+      "category": "abroad",
+      "type": "word",
+      "de": "der Zoll",
+      "en": "customs",
+      "gender": "m"
+    },
+    {
+      "id": "abroad-w-002",
+      "category": "abroad",
+      "type": "word",
+      "de": "die Grenze",
+      "en": "border",
+      "gender": "f"
+    },
+    {
+      "id": "abroad-w-003",
+      "category": "abroad",
+      "type": "word",
+      "de": "das Konsulat",
+      "en": "consulate",
+      "gender": "n"
+    },
+    {
+      "id": "abroad-w-004",
+      "category": "abroad",
+      "type": "word",
+      "de": "der Pass",
+      "en": "passport",
+      "gender": "m"
+    },
+    {
+      "id": "abroad-w-005",
+      "category": "abroad",
+      "type": "word",
+      "de": "der Abflug",
+      "en": "flight departure",
+      "gender": "m"
+    },
+    {
+      "id": "abroad-w-006",
+      "category": "abroad",
+      "type": "word",
+      "de": "die Ankunft",
+      "en": "arrival",
+      "gender": "f"
+    },
+    {
+      "id": "abroad-w-007",
+      "category": "abroad",
+      "type": "word",
+      "de": "der Anschluss",
+      "en": "connecting flight / connection",
+      "gender": "m"
+    },
+    {
+      "id": "abroad-w-008",
+      "category": "abroad",
+      "type": "word",
+      "de": "das Visum",
+      "en": "visa",
+      "gender": "n"
+    },
+    {
+      "id": "abroad-w-009",
+      "category": "abroad",
+      "type": "word",
+      "de": "die Impfung",
+      "en": "vaccination",
+      "gender": "f"
+    },
+    {
+      "id": "abroad-w-010",
+      "category": "abroad",
+      "type": "word",
+      "de": "die Geburt",
+      "en": "birth",
+      "gender": "f"
+    },
+    {
+      "id": "abroad-w-011",
+      "category": "abroad",
+      "type": "word",
+      "de": "die Zwillinge",
+      "en": "twins",
+      "gender": "f"
+    },
+    {
+      "id": "abroad-w-012",
+      "category": "abroad",
+      "type": "word",
+      "de": "das Schild",
+      "en": "sign",
+      "gender": "n"
+    },
+    {
+      "id": "abroad-w-013",
+      "category": "abroad",
+      "type": "word",
+      "de": "die Hebamme",
+      "en": "midwife",
+      "gender": "f"
+    },
+    {
+      "id": "abroad-w-014",
+      "category": "abroad",
+      "type": "word",
+      "de": "die Zukunft",
+      "en": "future",
+      "gender": "f"
+    },
+    {
+      "id": "abroad-w-015",
+      "category": "abroad",
+      "type": "word",
+      "de": "freiberuflich",
+      "en": "freelance"
+    },
+    {
+      "id": "abroad-w-016",
+      "category": "abroad",
+      "type": "word",
+      "de": "ähnlich",
+      "en": "similar"
+    },
+    {
+      "id": "abroad-w-017",
+      "category": "abroad",
+      "type": "word",
+      "de": "sinnvoll",
+      "en": "meaningful / sensible"
+    },
+    {
+      "id": "abroad-w-018",
+      "category": "abroad",
+      "type": "word",
+      "de": "sinnlos",
+      "en": "pointless / senseless"
+    },
+    {
+      "id": "abroad-w-019",
+      "category": "abroad",
+      "type": "word",
+      "de": "am meisten",
+      "en": "most of all"
+    },
+    {
+      "id": "abroad-v-001",
+      "category": "abroad",
+      "type": "verb",
+      "de": "beantragen",
+      "en": "to apply for"
+    },
+    {
+      "id": "abroad-v-002",
+      "category": "abroad",
+      "type": "verb",
+      "de": "kontrollieren",
+      "en": "to check / control"
+    },
+    {
+      "id": "abroad-v-003",
+      "category": "abroad",
+      "type": "verb",
+      "de": "verlängern",
+      "en": "to extend / renew"
+    },
+    {
+      "id": "abroad-v-004",
+      "category": "abroad",
+      "type": "verb",
+      "de": "gültig",
+      "en": "valid"
+    },
+    {
+      "id": "abroad-v-005",
+      "category": "abroad",
+      "type": "verb",
+      "de": "vermissen",
+      "en": "to miss (a person)"
+    },
+    {
+      "id": "abroad-v-006",
+      "category": "abroad",
+      "type": "verb",
+      "de": "ausfallen",
+      "en": "to be cancelled"
+    },
+    {
+      "id": "abroad-v-007",
+      "category": "abroad",
+      "type": "verb",
+      "de": "unterhalten",
+      "en": "to entertain / talk"
+    },
+    {
+      "id": "abroad-v-008",
+      "category": "abroad",
+      "type": "verb",
+      "de": "sich erinnern an",
+      "en": "to remember"
+    },
+    {
+      "id": "abroad-v-009",
+      "category": "abroad",
+      "type": "verb",
+      "de": "leiten – hat geleitet",
+      "en": "to lead / manage"
+    },
+    {
+      "id": "abroad-e-001",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Welche Erfahrungen haben Sie mit Auslandsaufenthalten?",
+      "en": "What experiences do you have with stays abroad?"
+    },
+    {
+      "id": "abroad-e-002",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Das war ein tolles Jahr mit vielen schönen Erlebnissen!",
+      "en": "That was a great year with many beautiful experiences!"
+    },
+    {
+      "id": "abroad-e-003",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Ich konnte viele neue / schöne Erfahrungen machen / sammeln.",
+      "en": "I was able to make / collect many new / beautiful experiences."
+    },
+    {
+      "id": "abroad-e-004",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Es hat mir super gefallen, dass…",
+      "en": "I really loved that…"
+    },
+    {
+      "id": "abroad-e-005",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Das würde ich jedem empfehlen!",
+      "en": "I would recommend that to everyone!"
+    },
+    {
+      "id": "abroad-e-006",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Ich fand es traurig, dass…",
+      "en": "I found it sad that…"
+    },
+    {
+      "id": "abroad-e-007",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Leider hat … nicht so gut geklappt.",
+      "en": "Unfortunately … didn't work out so well."
+    },
+    {
+      "id": "abroad-e-008",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Es war keine schöne Zeit. Das würde ich niemandem empfehlen.",
+      "en": "It was not a nice time. I would not recommend that to anyone."
+    },
+    {
+      "id": "abroad-e-009",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Berufserfahrungen sammeln",
+      "en": "to collect professional experiences"
+    },
+    {
+      "id": "abroad-e-010",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Das hat mir so gut gefallen.",
+      "en": "I liked that so much."
+    },
+    {
+      "id": "abroad-e-011",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Ich bin ganz schön aufgeregt!",
+      "en": "I am quite excited!"
+    },
+    {
+      "id": "abroad-e-012",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Haltet die Schilder hoch!",
+      "en": "Hold up the signs!"
+    },
+    {
+      "id": "abroad-e-013",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Ihr seid ja verrückt!",
+      "en": "You guys are crazy! (said affectionately)"
+    },
+    {
+      "id": "abroad-e-014",
+      "category": "abroad",
+      "type": "expression",
+      "de": "Würdest du das weiterempfehlen?",
+      "en": "Would you recommend that further?"
+    }
+  ]
+}
