@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Wortschatz — German A2 Vocabulary Trainer</title>
+<meta name="description" content="Learn all 654 German A2 words, verbs and expressions with spaced repetition, quizzes and stats — works fully offline.">
+<meta name="theme-color" content="#0B161C">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="assets/icons/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="assets/icons/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+<link rel="stylesheet" href="style.css">
+<script>
+// Applied before first paint to avoid a flash of the wrong theme.
+// (app.js re-applies this once fully loaded; this is just the early pass.)
+(function(){
+  try{
+    var raw = localStorage.getItem('wortschatz.state.v2');
+    var s = raw ? JSON.parse(raw) : null;
+    var theme = (s && s.theme) || { mode:'system', accent:'amber', highContrast:false };
+    var resolved = theme.mode === 'system'
+      ? (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
+      : theme.mode;
+    document.documentElement.setAttribute('data-theme', resolved || 'light');
+    document.documentElement.setAttribute('data-accent', (theme.accent) || 'amber');
+    if (theme.highContrast) document.documentElement.setAttribute('data-contrast','high');
+  }catch(e){ document.documentElement.setAttribute('data-theme','light'); document.documentElement.setAttribute('data-accent','amber'); }
+})();
+</script>
+</head>
+<body>
+
+<!-- ============================================================
+     ICON SPRITE — hand-drawn 24x24 stroke icons, referenced via
+     <svg class="icon"><use href="#i-name"/></svg>
+     ============================================================ -->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <defs>
+  <g id="__stroke-defaults"></g>
+
+  <symbol id="i-home" viewBox="0 0 24 24"><polyline points="4,12 12,5 20,12"/><path d="M6,10.5 V20 H18 V10.5"/><path d="M10,20 V14 H14 V20"/></symbol>
+  <symbol id="i-cards" viewBox="0 0 24 24"><rect x="7" y="8" width="13" height="13" rx="2"/><path d="M4,14.5 V6 a2,2 0 0 1 2,-2 H15.5"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4,20 V4"/><path d="M4,20 H20"/><rect x="7" y="13" width="3" height="7"/><rect x="12.5" y="9" width="3" height="11"/><rect x="18" y="5" width="3" height="15"/></symbol>
+  <symbol id="i-sliders" viewBox="0 0 24 24"><line x1="4" y1="7" x2="20" y2="7"/><circle cx="9" cy="7" r="2" fill="var(--icon-fill,#000)" /><line x1="4" y1="12" x2="20" y2="12"/><circle cx="15" cy="12" r="2" fill="var(--icon-fill,#000)"/><line x1="4" y1="17" x2="20" y2="17"/><circle cx="11" cy="17" r="2" fill="var(--icon-fill,#000)"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.3" y1="15.3" x2="20.5" y2="20.5"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><line x1="5" y1="5" x2="19" y2="19"/><line x1="19" y1="5" x2="5" y2="19"/></symbol>
+  <symbol id="i-chevron-left" viewBox="0 0 24 24"><polyline points="15,5 8,12 15,19"/></symbol>
+  <symbol id="i-chevron-right" viewBox="0 0 24 24"><polyline points="9,5 16,12 9,19"/></symbol>
+  <symbol id="i-chevron-down" viewBox="0 0 24 24"><polyline points="5,9 12,16 19,9"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12,3.5 14.7,9.3 21,10.1 16.4,14.4 17.6,20.7 12,17.6 6.4,20.7 7.6,14.4 3,10.1 9.3,9.3"/></symbol>
+  <symbol id="i-volume" viewBox="0 0 24 24"><polygon points="4,10 8,10 13,5.5 13,18.5 8,14 4,14" fill="currentColor" stroke="none"/><path d="M16.2,9 a5,5 0 0 1 0,6"/><path d="M18.6,6.5 a8.5,8.5 0 0 1 0,11"/></symbol>
+  <symbol id="i-repeat" viewBox="0 0 24 24"><path d="M4,11 V9 a4,4 0 0 1 4,-4 H17"/><polyline points="14,2 17,5 14,8"/><path d="M20,13 V15 a4,4 0 0 1 -4,4 H7"/><polyline points="10,22 7,19 10,16"/></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path d="M12,2.5 C9,7 7,8.5 7,12.5 A5,5 0 0 0 12,17.5 A5,5 0 0 0 17,12.5 C17,10.5 16,9.5 15.2,10.5 C15.6,7.5 14,5 12,2.5 Z"/><path d="M12,17.5 A2.6,2.6 0 0 0 14.5,14.8 C14.5,13.2 13.5,12.6 13,13.4 C13,11.7 12.4,11 12,10.2 C10.8,12 10,12.8 10,14.8 A2.6,2.6 0 0 0 12,17.5 Z" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7,4 H17 V9 A5,5 0 0 1 7,9 Z"/><path d="M7,5 H4 V7 a3,3 0 0 0 3,3"/><path d="M17,5 H20 V7 a3,3 0 0 1 -3,3"/><line x1="12" y1="14" x2="12" y2="17.5"/><path d="M8,21 H16 L15,17.5 H9 Z"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="9" rx="1.5"/><path d="M8,11 V7.5 a4,4 0 0 1 8,0 V11"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.5"/><line x1="12" y1="1.5" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22.5"/><line x1="1.5" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22.5" y2="12"/><line x1="4.5" y1="4.5" x2="6.2" y2="6.2"/><line x1="17.8" y1="17.8" x2="19.5" y2="19.5"/><line x1="4.5" y1="19.5" x2="6.2" y2="17.8"/><line x1="17.8" y1="6.2" x2="19.5" y2="4.5"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20,14.5 A9,9 0 1 1 9.5,4 A7,7 0 0 0 20,14.5 Z"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><line x1="12" y1="3" x2="12" y2="15"/><polyline points="7,10 12,15 17,10"/><path d="M4,17 V19 a2,2 0 0 0 2,2 H18 a2,2 0 0 0 2,-2 V17"/></symbol>
+  <symbol id="i-upload" viewBox="0 0 24 24"><line x1="12" y1="15" x2="12" y2="3"/><polyline points="7,8 12,3 17,8"/><path d="M4,17 V19 a2,2 0 0 0 2,2 H18 a2,2 0 0 0 2,-2 V17"/></symbol>
+  <symbol id="i-trash" viewBox="0 0 24 24"><line x1="4" y1="7" x2="20" y2="7"/><path d="M6,7 V19 a2,2 0 0 0 2,2 H16 a2,2 0 0 0 2,-2 V7"/><path d="M9,7 V4.5 h6 V7"/><line x1="10" y1="11" x2="10" y2="16"/><line x1="14" y1="11" x2="14" y2="16"/></symbol>
+  <symbol id="i-keyboard" viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="1.5"/><line x1="6" y1="9.5" x2="6" y2="9.5"/><line x1="6" y1="9" x2="6" y2="9.2"/><circle cx="6" cy="9.5" r=".6" fill="currentColor" stroke="none"/><circle cx="9.5" cy="9.5" r=".6" fill="currentColor" stroke="none"/><circle cx="13" cy="9.5" r=".6" fill="currentColor" stroke="none"/><circle cx="16.5" cy="9.5" r=".6" fill="currentColor" stroke="none"/><circle cx="6" cy="12.5" r=".6" fill="currentColor" stroke="none"/><circle cx="9.5" cy="12.5" r=".6" fill="currentColor" stroke="none"/><circle cx="13" cy="12.5" r=".6" fill="currentColor" stroke="none"/><circle cx="16.5" cy="12.5" r=".6" fill="currentColor" stroke="none"/><rect x="6" y="14.5" width="12" height="1.6" rx=".8" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><polygon points="6,4 20,12 6,20" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><rect x="5" y="4" width="5" height="16" fill="currentColor" stroke="none"/><rect x="14" y="4" width="5" height="16" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="12" y1="12" x2="12" y2="7"/><line x1="12" y1="12" x2="15.5" y2="14"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><polyline points="4,13 9,18 20,6"/></symbol>
+  <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><polyline points="7.5,12.5 10.5,15.5 16.5,9"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><circle cx="12" cy="7.5" r="1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M3,6 H7 L17,18 H21"/><polyline points="18,5 21,6 18.5,8.5"/><path d="M3,18 H7 L10,14"/><path d="M14,10 L17,6 H21"/><polyline points="18,3.5 21,6 18.5,8"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4,5 C7,4 9.5,4.4 12,6 V19 C9.5,17.4 7,17 4,18 Z"/><path d="M20,5 C17,4 14.5,4.4 12,6 V19 C14.5,17.4 17,17 20,18 Z"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><line x1="12" y1="4" x2="12" y2="20"/><line x1="4" y1="12" x2="20" y2="12"/></symbol>
+  <symbol id="i-filter" viewBox="0 0 24 24"><polygon points="3,4 21,4 14,12.5 14,18 10,20 10,12.5"/></symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 24 24"><line x1="4" y1="12" x2="18" y2="12"/><polyline points="13,7 18,12 13,17"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><polygon points="13,2 4,14 11,14 9,22 20,9 13,9"/></symbol>
+  <symbol id="i-edit" viewBox="0 0 24 24"><path d="M15,4.5 L19.5,9 L8,20.5 L3.5,21.5 L4.5,17 Z"/><line x1="13" y1="6.5" x2="17.5" y2="11"/></symbol>
+  <symbol id="i-list" viewBox="0 0 24 24"><circle cx="4.5" cy="6" r="1.1" fill="currentColor" stroke="none"/><circle cx="4.5" cy="12" r="1.1" fill="currentColor" stroke="none"/><circle cx="4.5" cy="18" r="1.1" fill="currentColor" stroke="none"/><line x1="8.5" y1="6" x2="20.5" y2="6"/><line x1="8.5" y1="12" x2="20.5" y2="12"/><line x1="8.5" y1="18" x2="20.5" y2="18"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5.5" r="2.5"/><circle cx="6" cy="12" r="2.5"/><circle cx="18" cy="18.5" r="2.5"/><line x1="8.2" y1="10.7" x2="15.8" y2="6.8"/><line x1="8.2" y1="13.3" x2="15.8" y2="17.2"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><line x1="5" y1="3" x2="5" y2="21"/><path d="M5,4.5 C8,3 10,5.5 13,4.5 S18,3 19,4.5 V13 C17,14.5 15,12 13,13 S8,15 5,13.5 Z"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/><path d="M4.5,7 H19.5"/><path d="M4.5,17 H19.5"/></symbol>
+  <symbol id="i-refresh-cw" viewBox="0 0 24 24"><path d="M4,12 a8,8 0 0 1 13.7,-5.7 L20,8"/><polyline points="20,3 20,8 15,8"/><path d="M20,12 a8,8 0 0 1 -13.7,5.7 L4,16"/><polyline points="4,21 4,16 9,16"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5,9.3 a2.6,2.4 0 1 1 3.9,2.1 C12.3,12.2 12,12.8 12,14"/><circle cx="12" cy="17" r="1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="8.3" cy="8.3" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.7" cy="8.3" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="8.3" cy="15.7" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.7" cy="15.7" r="1.2" fill="currentColor" stroke="none"/></symbol>
+  </defs>
+</svg>
+
+<div id="app" class="app">
+
+  <!-- ============================== TOP BAR ============================== -->
+  <header class="topbar" id="topbar">
+    <button class="icon-btn topbar__back" id="btnBack" aria-label="Back" hidden>
+      <svg class="icon"><use href="#i-chevron-left"/></svg>
+    </button>
+    <div class="topbar__brand" id="topbarBrand">
+      <span class="topbar__mark" aria-hidden="true"></span>
+      <span class="topbar__title" id="topbarTitle">Wortschatz</span>
+    </div>
+    <div class="topbar__actions">
+      <button class="icon-btn" id="btnSearch" aria-label="Search vocabulary">
+        <svg class="icon"><use href="#i-search"/></svg>
+      </button>
+      <button class="streak-chip" id="btnStreakChip" aria-label="Study streak">
+        <svg class="icon icon--sm"><use href="#i-flame"/></svg>
+        <span id="topbarStreak">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============================== MAIN VIEWS ============================== -->
+  <main class="views" id="views">
+
+    <!-- ---------------- HOME ---------------- -->
+    <section class="view" data-view="home" id="view-home">
+      <div class="view__scroll">
+
+        <div class="hero-stats" id="heroStats">
+          <div class="stat-tile stat-tile--total">
+            <span class="stat-tile__label">Total cards</span>
+            <span class="stat-tile__value" id="statTotalCards">0</span>
+            <span class="stat-tile__sub" id="statTotalSub">0 mastered</span>
+          </div>
+          <div class="stat-tile stat-tile--goal">
+            <div class="ring" id="goalRing" style="--pct:0">
+              <svg viewBox="0 0 64 64" class="ring__svg">
+                <circle cx="32" cy="32" r="27" class="ring__track"/>
+                <circle cx="32" cy="32" r="27" class="ring__fill" id="goalRingFill"/>
+              </svg>
+              <div class="ring__center">
+                <span id="goalRingValue">0</span>
+                <span class="ring__of">/<span id="goalRingTarget">20</span></span>
+              </div>
+            </div>
+            <span class="stat-tile__label">Today's goal</span>
+          </div>
+          <div class="stat-tile stat-tile--streak">
+            <svg class="icon icon--lg stat-tile__icon"><use href="#i-flame"/></svg>
+            <span class="stat-tile__value" id="statStreak">0</span>
+            <span class="stat-tile__label">Day streak</span>
+          </div>
+          <div class="stat-tile stat-tile--level">
+            <span class="stat-tile__label" id="statLevelName">Beginner</span>
+            <span class="stat-tile__value stat-tile__value--mono" id="statXp">0 XP</span>
+            <div class="mini-bar"><div class="mini-bar__fill" id="statLevelBar" style="width:0%"></div></div>
+          </div>
+        </div>
+
+        <button class="btn btn--primary btn--continue" id="btnContinueLearning">
+          <span class="btn--continue__text">
+            <strong id="continueTitle">Start studying</strong>
+            <small id="continueSub">Due for review</small>
+          </span>
+          <svg class="icon"><use href="#i-arrow-right"/></svg>
+        </button>
+
+        <section class="panel" id="dailyGoalPanel">
+          <div class="panel__head">
+            <h2>Today's goal</h2>
+            <span class="panel__head-sub" id="dailyGoalText">0 / 20 cards</span>
+          </div>
+          <div class="progress-bar progress-bar--lg">
+            <div class="progress-bar__fill" id="dailyGoalBar" style="width:0%"></div>
+          </div>
+          <p class="panel__foot" id="dailyGoalTime">0 min studied today</p>
+        </section>
+
+        <section class="panel" id="recentActivityPanel">
+          <div class="panel__head">
+            <h2>Last 7 days</h2>
+            <span class="panel__head-sub" id="weekTotalText">0 reviews</span>
+          </div>
+          <div id="miniChart" class="mini-chart" aria-label="Reviews over the last 7 days"></div>
+        </section>
+
+        <section class="panel panel--linemap" id="lineMapPanel">
+          <div class="panel__head">
+            <h2>Your line</h2>
+            <span class="panel__head-sub">Tap a station to study that topic</span>
+          </div>
+          <div id="lineMap" class="line-map"></div>
+        </section>
+
+        <div class="quick-links">
+          <button class="quick-link" id="btnFavoritesQuick">
+            <svg class="icon"><use href="#i-star"/></svg> Favorites
+          </button>
+          <button class="quick-link" id="btnBrowseQuick">
+            <svg class="icon"><use href="#i-book"/></svg> Browse dictionary
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- STUDY ---------------- -->
+    <section class="view" data-view="study" id="view-study">
+
+      <!-- setup -->
+      <div class="view__scroll" id="studySetup">
+        <section class="panel">
+          <div class="panel__head"><h2>What do you want to study?</h2></div>
+          <div class="option-list" id="studyScopeList">
+            <button class="option-row is-selected" data-scope="due">
+              <svg class="icon"><use href="#i-clock"/></svg>
+              <span class="option-row__text"><strong>Due for review</strong><small id="scopeDueSub">0 cards due</small></span>
+              <span class="option-row__check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+            <button class="option-row" data-scope="new">
+              <svg class="icon"><use href="#i-plus"/></svg>
+              <span class="option-row__text"><strong>New cards</strong><small id="scopeNewSub">0 not yet studied</small></span>
+              <span class="option-row__check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+            <button class="option-row" data-scope="all">
+              <svg class="icon"><use href="#i-shuffle"/></svg>
+              <span class="option-row__text"><strong>All cards</strong><small>Shuffled, all 654</small></span>
+              <span class="option-row__check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+            <button class="option-row" data-scope="favorites">
+              <svg class="icon"><use href="#i-star"/></svg>
+              <span class="option-row__text"><strong>Favorites</strong><small id="scopeFavSub">0 saved</small></span>
+              <span class="option-row__check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+            <button class="option-row" data-scope="category">
+              <svg class="icon"><use href="#i-filter"/></svg>
+              <span class="option-row__text"><strong>By topic…</strong><small id="scopeCategorySub">Choose a category</small></span>
+              <span class="option-row__check"><svg class="icon"><use href="#i-check"/></svg></span>
+            </button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Direction</h2></div>
+          <div class="segmented" id="directionSegmented">
+            <button class="segmented__btn is-active" data-dir="en-de">English → German</button>
+            <button class="segmented__btn" data-dir="de-en">German → English</button>
+          </div>
+        </section>
+
+        <button class="btn btn--primary btn--block" id="btnStartStudy">
+          Start session <svg class="icon"><use href="#i-arrow-right"/></svg>
+        </button>
+      </div>
+
+      <!-- active session -->
+      <div class="study-session" id="studySession" hidden>
+        <div class="study-session__bar">
+          <button class="icon-btn" id="btnExitSession" aria-label="End session"><svg class="icon"><use href="#i-x"/></svg></button>
+          <div class="progress-bar progress-bar--session"><div class="progress-bar__fill" id="sessionProgressBar" style="width:0%"></div></div>
+          <span class="study-session__count" id="sessionCount">1/20</span>
+        </div>
+
+        <div class="card-stage" id="cardStage">
+          <div class="card-tags">
+            <span class="tag" id="cardCategoryTag">Health</span>
+            <span class="tag tag--type" id="cardTypeTag">word</span>
+          </div>
+
+          <div class="flashcard" id="flashcard" tabindex="0" role="button" aria-label="Flashcard, tap to flip">
+            <div class="flashcard__inner" id="flashcardInner">
+              <div class="flashcard__face flashcard__face--front">
+                <button class="card-icon-btn card-icon-btn--fav" id="btnFavCard" aria-label="Toggle favorite">
+                  <svg class="icon"><use href="#i-star"/></svg>
+                </button>
+                <button class="card-icon-btn card-icon-btn--say" id="btnSayCard" aria-label="Pronounce">
+                  <svg class="icon"><use href="#i-volume"/></svg>
+                </button>
+                <div class="flashcard__word" id="cardFrontText">Word</div>
+                <div class="flashcard__hint">Tap to flip · Swipe for next/prev</div>
+              </div>
+              <div class="flashcard__face flashcard__face--back">
+                <div class="flashcard__word flashcard__word--de" id="cardBackText">Wort</div>
+                <div class="flashcard__gender" id="cardGenderTag" hidden></div>
+                <div class="flashcard__example" id="cardExampleText" hidden></div>
+              </div>
+            </div>
+          </div>
+          <div class="swipe-hint swipe-hint--left" aria-hidden="true"><svg class="icon"><use href="#i-chevron-left"/></svg></div>
+          <div class="swipe-hint swipe-hint--right" aria-hidden="true"><svg class="icon"><use href="#i-chevron-right"/></svg></div>
+        </div>
+
+        <div class="grade-buttons" id="gradeButtons" hidden>
+          <button class="grade-btn grade-btn--again" data-grade="again">
+            <strong>Again</strong><small id="gradeAgainSub">&lt;10m</small>
+          </button>
+          <button class="grade-btn grade-btn--hard" data-grade="hard">
+            <strong>Hard</strong><small id="gradeHardSub">1d</small>
+          </button>
+          <button class="grade-btn grade-btn--good" data-grade="good">
+            <strong>Good</strong><small id="gradeGoodSub">3d</small>
+          </button>
+          <button class="grade-btn grade-btn--easy" data-grade="easy">
+            <strong>Easy</strong><small id="gradeEasySub">6d</small>
+          </button>
+        </div>
+        <button class="btn btn--primary btn--block btn--reveal" id="btnRevealCard">Show answer</button>
+      </div>
+
+      <!-- session complete -->
+      <div class="session-complete" id="sessionComplete" hidden>
+        <svg class="icon icon--xl session-complete__icon"><use href="#i-check-circle"/></svg>
+        <h2>Session complete!</h2>
+        <div class="complete-stats">
+          <div><strong id="completeReviewed">0</strong><small>Reviewed</small></div>
+          <div><strong id="completeAccuracy">0%</strong><small>Accuracy</small></div>
+          <div><strong id="completeXp">+0</strong><small>XP earned</small></div>
+        </div>
+        <p class="complete-goal" id="completeGoalMsg"></p>
+        <button class="btn btn--primary btn--block" id="btnCompleteStudyMore">Study more</button>
+        <button class="btn btn--ghost btn--block" id="btnCompleteHome">Back to home</button>
+      </div>
+    </section>
+
+    <!-- ---------------- QUIZ ---------------- -->
+    <section class="view" data-view="quiz" id="view-quiz">
+
+      <div class="view__scroll" id="quizModeSelect">
+        <section class="panel">
+          <div class="panel__head"><h2>Choose a quiz mode</h2></div>
+          <div class="mode-cards">
+            <button class="mode-card" data-mode="mc">
+              <svg class="icon icon--lg"><use href="#i-list"/></svg>
+              <strong>Multiple Choice</strong>
+              <small>Pick the right translation from 4 options</small>
+            </button>
+            <button class="mode-card" data-mode="typing">
+              <svg class="icon icon--lg"><use href="#i-edit"/></svg>
+              <strong>Typing</strong>
+              <small>Type the German word from memory</small>
+            </button>
+            <button class="mode-card" data-mode="speed">
+              <svg class="icon icon--lg"><use href="#i-bolt"/></svg>
+              <strong>Speed Challenge</strong>
+              <small>Race the clock for the high score</small>
+            </button>
+          </div>
+        </section>
+
+        <section class="panel" id="speedDurationPanel" hidden>
+          <div class="panel__head"><h2>Round length</h2></div>
+          <div class="segmented" id="speedDurationSegmented">
+            <button class="segmented__btn is-active" data-secs="60">60 sec</button>
+            <button class="segmented__btn" data-secs="120">120 sec</button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Quiz scope</h2></div>
+          <div class="segmented" id="quizScopeSegmented">
+            <button class="segmented__btn is-active" data-scope="all">All topics</button>
+            <button class="segmented__btn" data-scope="category">One topic…</button>
+            <button class="segmented__btn" data-scope="favorites">Favorites</button>
+          </div>
+        </section>
+
+        <button class="btn btn--primary btn--block" id="btnStartQuiz" disabled>Choose a mode above</button>
+
+        <section class="panel" id="leaderboardPanel">
+          <div class="panel__head">
+            <h2>Your best runs</h2>
+            <span class="panel__head-sub">Personal bests, saved on this device</span>
+          </div>
+          <div id="leaderboardList" class="leaderboard-list"></div>
+        </section>
+      </div>
+
+      <!-- MCQ play -->
+      <div class="quiz-play" id="quizPlayMc" hidden>
+        <div class="quiz-play__bar">
+          <button class="icon-btn" id="btnExitMc" aria-label="Exit quiz"><svg class="icon"><use href="#i-x"/></svg></button>
+          <div class="progress-bar progress-bar--session"><div class="progress-bar__fill" id="mcProgressBar" style="width:0%"></div></div>
+          <span class="quiz-play__score" id="mcScoreLabel">0</span>
+        </div>
+        <p class="quiz-prompt-label" id="mcPromptLabel">Translate to German</p>
+        <div class="quiz-prompt" id="mcPrompt">Word</div>
+        <div class="quiz-options" id="mcOptions"></div>
+      </div>
+
+      <!-- typing play -->
+      <div class="quiz-play" id="quizPlayTyping" hidden>
+        <div class="quiz-play__bar">
+          <button class="icon-btn" id="btnExitTyping" aria-label="Exit quiz"><svg class="icon"><use href="#i-x"/></svg></button>
+          <div class="progress-bar progress-bar--session"><div class="progress-bar__fill" id="typingProgressBar" style="width:0%"></div></div>
+          <span class="quiz-play__score" id="typingScoreLabel">0</span>
+        </div>
+        <p class="quiz-prompt-label">Type the German word</p>
+        <div class="quiz-prompt" id="typingPrompt">Word</div>
+        <input class="typing-input" id="typingInput" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Type here…">
+        <div class="typing-feedback" id="typingFeedback" hidden></div>
+        <button class="btn btn--primary btn--block" id="btnTypingCheck">Check</button>
+      </div>
+
+      <!-- speed play -->
+      <div class="quiz-play quiz-play--speed" id="quizPlaySpeed" hidden>
+        <div class="quiz-play__bar">
+          <button class="icon-btn" id="btnExitSpeed" aria-label="Exit quiz"><svg class="icon"><use href="#i-x"/></svg></button>
+          <div class="speed-timer" id="speedTimer">60</div>
+          <span class="quiz-play__score" id="speedScoreLabel">0</span>
+        </div>
+        <p class="quiz-prompt-label" id="speedPromptLabel">Translate to German</p>
+        <div class="quiz-prompt" id="speedPrompt">Word</div>
+        <div class="quiz-options" id="speedOptions"></div>
+      </div>
+
+      <!-- results -->
+      <div class="session-complete" id="quizResults" hidden>
+        <svg class="icon icon--xl session-complete__icon" id="quizResultsIcon"><use href="#i-trophy"/></svg>
+        <h2 id="quizResultsTitle">Quiz complete!</h2>
+        <div class="complete-stats">
+          <div><strong id="quizResultsScore">0</strong><small>Score</small></div>
+          <div><strong id="quizResultsAccuracy">0%</strong><small>Accuracy</small></div>
+          <div><strong id="quizResultsXp">+0</strong><small>XP earned</small></div>
+        </div>
+        <div class="mistakes-panel" id="mistakesPanel" hidden>
+          <h3>Review your mistakes</h3>
+          <div id="mistakesList" class="mistakes-list"></div>
+        </div>
+        <button class="btn btn--primary btn--block" id="btnQuizPlayAgain">Play again</button>
+        <button class="btn btn--ghost btn--block" id="btnQuizHome">Back to quiz menu</button>
+      </div>
+    </section>
+
+    <!-- ---------------- PROGRESS ---------------- -->
+    <section class="view" data-view="progress" id="view-progress">
+      <div class="view__scroll">
+
+        <section class="panel panel--level">
+          <div class="level-badge">
+            <span class="level-badge__name" id="progLevelName">Beginner</span>
+            <span class="level-badge__next" id="progLevelNext">500 XP to Student</span>
+          </div>
+          <div class="progress-bar progress-bar--lg"><div class="progress-bar__fill" id="progLevelBar" style="width:0%"></div></div>
+          <span class="level-badge__xp" id="progXpTotal">0 XP total</span>
+        </section>
+
+        <div class="stat-grid" id="statGrid">
+          <div class="stat-card"><span id="progLearned">0</span><small>Learned</small></div>
+          <div class="stat-card"><span id="progMastered">0</span><small>Mastered</small></div>
+          <div class="stat-card"><span id="progRemaining">0</span><small>Remaining</small></div>
+          <div class="stat-card"><span id="progAccuracy">0%</span><small>Accuracy</small></div>
+          <div class="stat-card"><span id="progTime">0m</span><small>Study time</small></div>
+          <div class="stat-card"><span id="progStreak">0</span><small>Day streak</small></div>
+        </div>
+
+        <section class="panel">
+          <div class="panel__head">
+            <h2>Activity</h2>
+            <div class="segmented segmented--sm" id="chartRangeSegmented">
+              <button class="segmented__btn is-active" data-range="daily">Daily</button>
+              <button class="segmented__btn" data-range="weekly">Weekly</button>
+              <button class="segmented__btn" data-range="monthly">Monthly</button>
+            </div>
+          </div>
+          <div id="statsChart" class="stats-chart" aria-label="Study activity chart"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Streak calendar</h2></div>
+          <div id="streakHeatmap" class="heatmap" aria-label="Streak calendar"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head">
+            <h2>Category mastery</h2>
+            <span class="panel__head-sub" id="categoryMasterySub"></span>
+          </div>
+          <div id="categoryMasteryList" class="category-mastery-list"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Achievements</h2></div>
+          <div id="achievementsGrid" class="achievements-grid"></div>
+        </section>
+      </div>
+    </section>
+
+    <!-- ---------------- SETTINGS ---------------- -->
+    <section class="view" data-view="settings" id="view-settings">
+      <div class="view__scroll">
+
+        <section class="panel">
+          <div class="panel__head"><h2>Appearance</h2></div>
+          <div class="segmented" id="modeSegmented">
+            <button class="segmented__btn" data-mode="light"><svg class="icon icon--sm"><use href="#i-sun"/></svg> Light</button>
+            <button class="segmented__btn" data-mode="dark"><svg class="icon icon--sm"><use href="#i-moon"/></svg> Dark</button>
+            <button class="segmented__btn is-active" data-mode="system">Auto</button>
+          </div>
+          <div class="swatch-row" id="accentSwatches">
+            <button class="swatch swatch--amber is-active" data-accent="amber" aria-label="Amber accent"></button>
+            <button class="swatch swatch--blue" data-accent="blue" aria-label="Blue accent"></button>
+            <button class="swatch swatch--green" data-accent="green" aria-label="Green accent"></button>
+            <button class="swatch swatch--purple" data-accent="purple" aria-label="Purple accent"></button>
+          </div>
+          <label class="switch-row">
+            <span>High contrast mode</span>
+            <input type="checkbox" id="toggleHighContrast" class="switch">
+          </label>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Daily goal</h2></div>
+          <div class="segmented" id="dailyGoalSegmented">
+            <button class="segmented__btn" data-goal="10">10</button>
+            <button class="segmented__btn" data-goal="20" >20</button>
+            <button class="segmented__btn" data-goal="30">30</button>
+            <button class="segmented__btn" data-goal="50">50</button>
+            <button class="segmented__btn" data-goal="100">100</button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Pronunciation</h2></div>
+          <label class="field-row">
+            <span>Voice</span>
+            <select id="voiceSelect" class="select"></select>
+          </label>
+          <label class="switch-row">
+            <span>Slow mode by default</span>
+            <input type="checkbox" id="toggleSlowMode" class="switch">
+          </label>
+          <label class="switch-row">
+            <span>Repeat pronunciation twice</span>
+            <input type="checkbox" id="toggleRepeatMode" class="switch">
+          </label>
+          <button class="btn btn--ghost btn--block" id="btnTestVoice">
+            <svg class="icon"><use href="#i-volume"/></svg> Test voice
+          </button>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Sound &amp; feedback</h2></div>
+          <label class="switch-row">
+            <span>Sound effects</span>
+            <input type="checkbox" id="toggleSound" class="switch" checked>
+          </label>
+          <label class="switch-row">
+            <span>Haptic feedback (mobile)</span>
+            <input type="checkbox" id="toggleHaptics" class="switch" checked>
+          </label>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Keyboard shortcuts</h2></div>
+          <div class="shortcut-list">
+            <div><kbd>Space</kbd><span>Flip card</span></div>
+            <div><kbd>←</kbd> <kbd>→</kbd><span>Previous / next card</span></div>
+            <div><kbd>1</kbd>–<kbd>4</kbd><span>Again / Hard / Good / Easy</span></div>
+            <div><kbd>F</kbd><span>Toggle favorite</span></div>
+            <div><kbd>P</kbd><span>Pronounce</span></div>
+            <div><kbd>Esc</kbd><span>Close / go back</span></div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <div class="panel__head"><h2>Your data</h2></div>
+          <button class="btn btn--ghost btn--block" id="btnExportData">
+            <svg class="icon"><use href="#i-download"/></svg> Export progress
+          </button>
+          <label class="btn btn--ghost btn--block" id="btnImportData" for="importDataInput">
+            <svg class="icon"><use href="#i-upload"/></svg> Import progress
+          </label>
+          <input type="file" id="importDataInput" accept="application/json" hidden>
+          <button class="btn btn--danger btn--block" id="btnResetData">
+            <svg class="icon"><use href="#i-trash"/></svg> Reset all progress
+          </button>
+        </section>
+
+        <section class="panel panel--about">
+          <div class="panel__head"><h2>About</h2></div>
+          <p>Wortschatz — 654 words, verbs and expressions from the Menschen A2 course, organized into 15 everyday-life topics. Built to work fully offline.</p>
+          <p class="panel__foot">Install this app to your home screen for the best experience — see Settings above or your browser's menu.</p>
+        </section>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================== BOTTOM NAV ============================== -->
+  <nav class="bottom-nav" id="bottomNav" aria-label="Main navigation">
+    <button class="bottom-nav__item is-active" data-view="home">
+      <svg class="icon"><use href="#i-home"/></svg><span>Home</span>
+    </button>
+    <button class="bottom-nav__item" data-view="study">
+      <svg class="icon"><use href="#i-cards"/></svg><span>Study</span>
+    </button>
+    <button class="bottom-nav__item" data-view="quiz">
+      <svg class="icon"><use href="#i-target"/></svg><span>Quiz</span>
+    </button>
+    <button class="bottom-nav__item" data-view="progress">
+      <svg class="icon"><use href="#i-chart"/></svg><span>Progress</span>
+    </button>
+    <button class="bottom-nav__item" data-view="settings">
+      <svg class="icon"><use href="#i-sliders"/></svg><span>Settings</span>
+    </button>
+  </nav>
+</div>
+
+<!-- ============================== OVERLAYS ============================== -->
+<div class="overlay" id="overlaySearch" hidden>
+  <div class="overlay__sheet overlay__sheet--full">
+    <div class="overlay__head">
+      <div class="search-input-wrap">
+        <svg class="icon"><use href="#i-search"/></svg>
+        <input type="text" id="searchInput" placeholder="Search English or German…" autocomplete="off">
+      </div>
+      <button class="btn btn--ghost btn--sm" id="btnCloseSearch">Cancel</button>
+    </div>
+    <div class="chip-row" id="searchTypeChips">
+      <button class="chip is-active" data-type="all">All types</button>
+      <button class="chip" data-type="word">Words</button>
+      <button class="chip" data-type="verb">Verbs</button>
+      <button class="chip" data-type="expression">Expressions</button>
+      <button class="chip" data-favorites="1">★ Favorites</button>
+    </div>
+    <div class="overlay__scroll">
+      <div id="searchResults" class="search-results"></div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="overlayCategory" hidden>
+  <div class="overlay__sheet overlay__sheet--full">
+    <div class="overlay__head">
+      <button class="icon-btn" id="btnCloseCategory" aria-label="Close"><svg class="icon"><use href="#i-chevron-left"/></svg></button>
+      <div class="category-head" id="categoryHeadTitle">
+        <strong>Category</strong>
+      </div>
+    </div>
+    <div class="overlay__scroll">
+      <div class="category-detail-stats" id="categoryDetailStats"></div>
+      <button class="btn btn--primary btn--block" id="btnStudyThisCategory">Study this topic</button>
+      <div id="categoryCardList" class="search-results"></div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay overlay--dialog" id="overlayConfirm" hidden>
+  <div class="dialog">
+    <h3 id="confirmTitle">Are you sure?</h3>
+    <p id="confirmMessage"></p>
+    <div class="dialog__actions">
+      <button class="btn btn--ghost" id="btnConfirmCancel">Cancel</button>
+      <button class="btn btn--danger" id="btnConfirmOk">Confirm</button>
+    </div>
+  </div>
+</div>
+
+<div class="overlay overlay--dialog" id="overlayCategoryPicker" hidden>
+  <div class="dialog dialog--list">
+    <h3>Choose a topic</h3>
+    <div id="categoryPickerList" class="category-picker-list"></div>
+    <button class="btn btn--ghost btn--block" id="btnCategoryPickerCancel">Cancel</button>
+  </div>
+</div>
+
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+
+<div class="install-banner" id="installBanner" hidden>
+  <svg class="icon"><use href="#i-download"/></svg>
+  <span>Install Wortschatz for offline access &amp; the full-screen app</span>
+  <button class="btn btn--primary btn--sm" id="btnInstallApp">Install</button>
+  <button class="icon-btn" id="btnDismissInstall" aria-label="Dismiss"><svg class="icon"><use href="#i-x"/></svg></button>
+</div>
+
+<!-- ============================== TEMPLATES ============================== -->
+<template id="tpl-search-row">
+  <button class="search-row">
+    <span class="search-row__main">
+      <strong class="search-row__de"></strong>
+      <small class="search-row__en"></small>
+    </span>
+    <span class="search-row__tag"></span>
+  </button>
+</template>
+
+<template id="tpl-achievement">
+  <div class="achievement">
+    <svg class="icon icon--lg"><use href="#i-trophy"/></svg>
+    <strong class="achievement__name"></strong>
+    <small class="achievement__desc"></small>
+  </div>
+</template>
+
+<template id="tpl-category-picker-row">
+  <button class="category-picker-row">
+    <span class="category-picker-row__emoji"></span>
+    <span class="category-picker-row__label"></span>
+    <span class="category-picker-row__count"></span>
+  </button>
+</template>
+
+<script src="cards.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
